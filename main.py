@@ -148,7 +148,7 @@ else:
 # Entry for Cristin ID
 tk.Label(root, text="Enter Cristin ID number:").pack(pady=10)
 entry_cristin = tk.Entry(root)
-entry_cristin.insert(0, "674004")
+entry_cristin.insert(0, "")
 entry_cristin.pack(pady=5)
 
 # Entry for email address (optional)
