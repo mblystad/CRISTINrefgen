@@ -1,5 +1,5 @@
 # Cristin ID Reference Formatter
-The current release is in early development, and I will try to work on but it is not my top priority.
+The current release is in early development, and I will try to work on but it is not my top priority. Idea and first few lines of code by mblystad, most work provided by LLMs (ChatGPT / Copilot).
 
 This repository contains a Python-based GUI application that:
 
