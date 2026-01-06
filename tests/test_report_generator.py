@@ -1,21 +1,18 @@
-from pathlib import Path
-
-import pytest
-
-from report_generator import (
-    build_reference,
+﻿from report_generator import (
+    build_entries,
     build_template_context,
-    format_references,
-    generate_category_chart,
+    classify_publication,
+    extract_level,
+    format_reference,
 )
 
 
-def sample_record(category: str = "Journal article", year: int = 2024) -> dict:
+def sample_record(category: str = "Journal article", year: int = 2024, level: int = 2) -> dict:
     return {
         "contributors": {"preview": [{"surname": "Doe", "first_name": "Jane"}]},
         "year_published": year,
         "title": {"en": "Sample Publication"},
-        "journal": {"name": "Journal of Testing"},
+        "journal": {"name": "Journal of Testing", "level": str(level)},
         "volume": "12",
         "pages": {"from": "10", "to": "20"},
         "links": [{"url_type": "DOI", "url": "https://doi.org/10.0000/example"}],
@@ -23,35 +20,51 @@ def sample_record(category: str = "Journal article", year: int = 2024) -> dict:
     }
 
 
-def test_build_reference_returns_readable_text():
-    ref = build_reference(sample_record(category="Report"))
-    assert "Doe, Jane (2024)" in ref.text
-    assert "Report" == ref.category
-    assert ref.year == "2024"
+def test_format_reference_contains_expected_fields():
+    record = sample_record()
+    reference = format_reference(record)
+    assert "Doe, Jane" in reference
+    assert "(2024)." in reference
+    assert "Sample Publication" in reference
+    assert "Journal of Testing" in reference
+    assert "doi.org" in reference
 
 
-def test_format_references_counts_categories_and_sorts():
-    records = [sample_record(category="Article", year=2022), sample_record(category="Article", year=2023)]
-    references, counts = format_references(records)
-    assert counts == {"Article": 2}
-    # Sorted newest first
-    assert references[0].startswith("Doe, Jane (2023)")
+def test_extract_level_prefers_known_fields():
+    record = sample_record(level=1)
+    assert extract_level(record) == "1"
 
 
-def test_generate_category_chart_creates_file(tmp_path: Path):
-    counts = {"Journal article": 2, "Book": 1}
-    output = tmp_path / "chart.png"
-    result = generate_category_chart(counts, output)
-    assert result.exists()
-    assert result == output
+def test_classify_publication_uses_category_and_level():
+    record = sample_record(category="Monograph", level=2)
+    assert classify_publication(record) == "publisert_monografi_niva2"
+
+    record = sample_record(category="Anthology", level=1)
+    assert classify_publication(record) == "publisert_antologi_niva1"
+
+    record = sample_record(category="Book review", level=1)
+    assert classify_publication(record) == "publisert_book_review"
 
 
-def test_build_template_context_tracks_totals(tmp_path: Path):
-    chart = tmp_path / "chart.png"
-    chart.touch()
-    refs = ["ref1", "ref2"]
-    counts = {"Journal article": 1, "Book": 1}
-    context = build_template_context(refs, counts, chart)
-    assert context["total_entries"] == 2
-    assert len(context["category_counts"]) == 2
-    assert context["category_counts"][0]["name"] in counts
+def test_build_entries_filters_by_year():
+    records = [sample_record(year=2023), sample_record(year=2024)]
+    entries = build_entries(records, report_year=2024)
+    assert len(entries) == 1
+    assert entries[0].year == "2024"
+
+
+def test_build_template_context_populates_keys():
+    records = [sample_record(category="Journal article", level=2)]
+    entries = build_entries(records, report_year=2024)
+    context = build_template_context(
+        entries,
+        report_year=2024,
+        person_name="Jane Doe",
+        institution_name="Test University",
+        institution_name_secondary="",
+    )
+
+    assert context["report_year"] == "2024"
+    assert context["person_name"] == "Jane Doe"
+    assert "publisert_artikkel_niva2" in context
+    assert "Doe, Jane" in context["publisert_artikkel_niva2"]
