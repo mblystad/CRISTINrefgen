@@ -67,4 +67,4 @@ def test_build_template_context_populates_keys():
     assert context["report_year"] == "2024"
     assert context["person_name"] == "Jane Doe"
     assert "publisert_artikkel_niva2" in context
-    assert "Doe, Jane" in context["publisert_artikkel_niva2"]
+    assert "Doe, Jane" in str(context["publisert_artikkel_niva2"])

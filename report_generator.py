@@ -6,7 +6,7 @@ from typing import Dict, Iterable, List, Sequence
 import unicodedata
 
 import requests
-from docxtpl import DocxTemplate
+from docxtpl import DocxTemplate, RichText
 
 CRISTIN_API_URL = "https://api.cristin.no/v2/persons/{person_id}/results"
 CRISTIN_PERSON_URL = "https://api.cristin.no/v2/persons/{person_id}"
@@ -273,9 +273,17 @@ def build_template_context(
     """Prepare context for docxtpl template rendering."""
     grouped = group_references(entries)
 
-    def join_refs(key: str) -> str:
+    def join_refs(key: str) -> str | RichText:
         refs = grouped.get(key, [])
-        return "\n".join(refs)
+        if not refs:
+            return ""
+
+        rich_text = RichText()
+        for idx, ref in enumerate(refs):
+            rich_text.add(ref)
+            if idx < len(refs) - 1:
+                rich_text.add("\n\n")
+        return rich_text
 
     context = {
         "report_year": str(report_year),

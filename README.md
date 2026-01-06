@@ -1,11 +1,10 @@
-﻿# CRISTIN Annual Report Generator
+﻿# NVA Annual Report Generator
 
-This project generates a filled annual report (Aarsrapport) from a CRISTIN/NVA person ID and a Word template. The Streamlit UI lets a non-coder upload the institution template, select the report year, and download the completed report.
-CRISTIN person IDs are the same as NVA IDs.
+This project generates a filled annual report (Aarsrapport) from an NVA person ID and a Word template. The Streamlit UI lets a non-coder upload the institution template, select the report year, and download the completed report.
 
 ## Features
 
-- Fetches publication data from the CRISTIN API for a given person ID.
+- Fetches publication data from the NVA/CRISTIN API for a given person ID.
 - Filters publications by a user-selected year.
 - Formats APA-style references and groups them by publication category.
 - Fills a Word template (docxtpl) and returns the finished report.
@@ -27,7 +26,7 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-Open the local Streamlit page, upload your template (or use the default template in `templates/`), enter the CRISTIN/NVA person ID, select the report year, and generate the report.
+Open the local Streamlit page, upload your template (or use the default template in `templates/`), enter the NVA person ID, select the report year, and generate the report.
 
 ## Template placeholders
 
@@ -48,12 +47,12 @@ Required placeholders:
 - `{{ publisert_book_review }}`
 - `{{ publisert_annet }}`
 
-Each publication placeholder is replaced with a newline-separated list of APA-style references for the selected year.
+Each publication placeholder is replaced with a double newline-separated list of APA-style references for the selected year.
 
 ## Project structure
 
 - `app.py` - Streamlit UI.
-- `report_generator.py` - CRISTIN API integration, categorization, and template rendering.
+- `report_generator.py` - NVA/CRISTIN API integration, categorization, and template rendering.
 - `templates/Aarsrapport-plan_MAL.docx` - Default Word template with placeholders.
 - `tests/` - Unit tests (pytest).
 - `requirements.txt` - Python dependencies.
@@ -74,5 +73,5 @@ Tests cover:
 
 ## Notes
 
-- The CRISTIN API may have rate limits. If you see errors, retry after a short pause.
+- The NVA/CRISTIN API may have rate limits. If you see errors, retry after a short pause.
 - The template is institution-standardized. Keep the structure intact and only replace content with placeholders.

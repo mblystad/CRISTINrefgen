@@ -26,9 +26,9 @@ def persist_uploaded_template(uploaded_file) -> Path:
 
 
 def main() -> None:
-    st.title("CRISTIN Annual Report Generator")
+    st.title("NVA Annual Report Generator")
     st.write(
-        "Upload a Word template, enter a CRISTIN person ID, choose the report year, "
+        "Upload a Word template, enter an NVA person ID, choose the report year, "
         "and download the filled report."
     )
 
@@ -45,7 +45,7 @@ def main() -> None:
         help="Upload the institution template with placeholders.",
     )
 
-    person_id = st.text_input("CRISTIN person ID", placeholder="123456")
+    person_id = st.text_input("NVA person ID", placeholder="123456")
     report_year = st.number_input(
         "Report year",
         min_value=1900,
@@ -59,11 +59,11 @@ def main() -> None:
 
     if generate:
         if not person_id.strip():
-            st.error("Please enter a CRISTIN person ID.")
+            st.error("Please enter an NVA person ID.")
             return
 
         if not person_id.strip().isdigit():
-            st.error("CRISTIN person ID must be numeric.")
+            st.error("NVA person ID must be numeric.")
             return
 
         template_path = None
