@@ -1,4 +1,6 @@
-﻿from report_generator import (
+from docx import Document
+
+from report_generator import (
     MANUAL_FIELD_KEYS,
     build_auto_manual_fields,
     build_entries,
@@ -7,6 +9,7 @@
     classify_publication,
     extract_level,
     format_reference,
+    render_report,
 )
 
 
@@ -103,7 +106,21 @@ def test_build_auto_manual_fields_maps_programme_participation():
 
 
 def test_build_output_filename_uses_person_name():
-    filename = build_output_filename("Åse/Example", person_id=123, report_year=2024)
+    filename = build_output_filename("Źse/Example", person_id=123, report_year=2024)
     assert filename.startswith("Aarsrapport_2024_")
     assert filename.endswith(".docx")
     assert "/" not in filename
+
+
+def test_render_report_replaces_placeholders(tmp_path):
+    template_path = tmp_path / "template.docx"
+    output_path = tmp_path / "output.docx"
+    doc = Document()
+    doc.add_paragraph("{{ person_name }}")
+    doc.save(template_path)
+
+    render_report({"person_name": "Jane Doe"}, template_path, output_path)
+
+    rendered = Document(output_path)
+    text = "\n".join(p.text for p in rendered.paragraphs)
+    assert "Jane Doe" in text

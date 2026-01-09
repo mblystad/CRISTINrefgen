@@ -1,10 +1,10 @@
-# CRISTIN Annual Report Generator
+# NVA Annual Report Generator
 
-This project generates a filled annual report (Aarsrapport) from a CRISTIN/NVA person ID and a Word template. The Streamlit UI lets a non-coder upload the institution template, select the report year, and download the completed report.
+This project generates a filled annual report (Aarsrapport) from an NVA person ID and a Word template. The Streamlit UI lets a non-coder upload the institution template, select the report year, and download the completed report.
 
 ## Features
 
-- Fetches publication data from the CRISTIN API for a given person ID.
+- Fetches publication data from the NVA/CRISTIN API for a given person ID.
 - Filters publications by a user-selected year.
 - Formats APA-style references and groups them by publication category.
 - Fills a Word template (docxtpl) and returns the finished report.
@@ -26,7 +26,7 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-Open the local Streamlit page, upload your template (or use the default template in `templates/`), enter the CRISTIN/NVA person ID, select the report year, and generate the report. The generated report is saved under `reports/` and can be downloaded directly from the UI.
+Open the local Streamlit page, upload your template (or use the default template in `templates/`), enter the NVA person ID, select the report year, and generate the report. The generated report is saved under `reports/` and can be downloaded directly from the UI.
 
 ## Template placeholders
 
@@ -48,6 +48,7 @@ Required placeholders:
 - `{{ publisert_annet }}`
 
 Each publication placeholder is replaced with a double newline-separated list of APA-style references for the selected year.
+The UI will warn if required placeholders appear to be missing, but it will still generate a report.
 
 Optional placeholders (manual entry in the UI):
 
@@ -101,8 +102,17 @@ Tests cover:
 - Categorizing publication data into report sections.
 - Formatting APA references.
 - Building the template context.
+- Rendering a docx template with placeholders.
+- Streamlit UI smoke test (skips if streamlit testing tools are unavailable).
 
 ## Notes
 
 - The CRISTIN API may have rate limits. If you see errors, retry after a short pause.
 - The template is institution-standardized. Keep the structure intact and only replace content with placeholders.
+
+## Troubleshooting
+
+- Report is blank in a section: verify the template includes the required placeholders from the list above.
+- "Template missing" error: place `Aarsrapport-plan_MAL.docx` in `templates/` or upload a template in the UI.
+- API errors or timeouts: the CRISTIN/NVA API may be rate-limited; retry after a short pause.
+- "NVA person ID must be numeric": the app expects digits only.

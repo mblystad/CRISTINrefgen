@@ -3,6 +3,7 @@
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Dict, Iterable, List, Sequence
+from zipfile import ZipFile
 import re
 import unicodedata
 
@@ -13,6 +14,10 @@ CRISTIN_API_URL = "https://api.cristin.no/v2/persons/{person_id}/results"
 CRISTIN_PERSON_URL = "https://api.cristin.no/v2/persons/{person_id}"
 DEFAULT_OUTPUT_DIR = Path("reports")
 TEMPLATE_PATTERN = "Aarsrapport-plan_MAL.docx"
+PER_PAGE_DEFAULT = 100
+MAX_PAGES_DEFAULT = 25
+REQUEST_TIMEOUT_SECONDS = 30
+PLACEHOLDER_PATTERN = re.compile(r"{{\s*([a-zA-Z0-9_]+)\s*}}")
 
 CATEGORY_KEYS = [
     "publisert_monografi_niva2",
@@ -46,6 +51,15 @@ MANUAL_FIELD_KEYS = [
     "veiledning_masteroppgave",
     "sensur_masteroppgave",
     "professor_vurderinger",
+]
+
+REQUIRED_PLACEHOLDERS = [
+    "report_year",
+    "person_name",
+    "institution_name",
+    "institution_name_secondary",
+    *CATEGORY_KEYS,
+    *MANUAL_FIELD_KEYS,
 ]
 
 NON_PUBLICATION_CATEGORY_CODES = {
@@ -89,8 +103,8 @@ def normalize_text(text: str) -> str:
 
 def fetch_publications(
     person_id: int | str,
-    per_page: int = 100,
-    max_pages: int = 25,
+    per_page: int = PER_PAGE_DEFAULT,
+    max_pages: int = MAX_PAGES_DEFAULT,
     session: requests.Session | None = None,
 ) -> List[dict]:
     """
@@ -108,7 +122,11 @@ def fetch_publications(
     client = session or requests.Session()
 
     while page <= max_pages:
-        response = client.get(base_url, params={"page": page, "per_page": per_page}, timeout=30)
+        response = client.get(
+            base_url,
+            params={"page": page, "per_page": per_page},
+            timeout=REQUEST_TIMEOUT_SECONDS,
+        )
         response.raise_for_status()
         page_results = response.json()
 
@@ -130,7 +148,10 @@ def fetch_person_details(
         raise ValueError("person_id must be numeric")
 
     client = session or requests.Session()
-    response = client.get(CRISTIN_PERSON_URL.format(person_id=person_id), timeout=30)
+    response = client.get(
+        CRISTIN_PERSON_URL.format(person_id=person_id),
+        timeout=REQUEST_TIMEOUT_SECONDS,
+    )
     response.raise_for_status()
     return response.json()
 
@@ -502,6 +523,25 @@ def render_report(context: dict, template_path: Path, output_path: Path) -> Path
     doc.render(context)
     doc.save(output_path)
     return output_path
+
+
+def extract_template_placeholders(template_path: Path) -> set[str]:
+    """Extract simple Jinja placeholders from a docx template."""
+    with ZipFile(template_path) as docx:
+        try:
+            xml = docx.read("word/document.xml").decode("utf-8")
+        except KeyError:
+            return set()
+    return set(PLACEHOLDER_PATTERN.findall(xml))
+
+
+def find_missing_placeholders(
+    template_path: Path, required_placeholders: Sequence[str] = REQUIRED_PLACEHOLDERS
+) -> List[str]:
+    """Return required placeholders that do not appear in the template."""
+    present = extract_template_placeholders(template_path)
+    missing = sorted(set(required_placeholders) - present)
+    return missing
 
 
 def generate_report(

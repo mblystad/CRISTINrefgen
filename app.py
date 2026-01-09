@@ -6,7 +6,11 @@ from uuid import uuid4
 
 import streamlit as st
 
-from report_generator import generate_report, resolve_template_path
+from report_generator import (
+    find_missing_placeholders,
+    generate_report,
+    resolve_template_path,
+)
 
 
 MANUAL_SECTIONS = {
@@ -138,6 +142,19 @@ def main() -> None:
         if template_path is None:
             st.error("Template missing. Upload a template or add one to the templates folder.")
             return
+
+        try:
+            missing = find_missing_placeholders(template_path)
+        except Exception:
+            missing = []
+        if missing:
+            missing_preview = ", ".join(missing[:8])
+            if len(missing) > 8:
+                missing_preview = f"{missing_preview}, ..."
+            st.warning(
+                "Template is missing required placeholders and may render blanks: "
+                f"{missing_preview}"
+            )
 
         with st.spinner("Generating report..."):
             try:
