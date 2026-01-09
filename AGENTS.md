@@ -1,13 +1,13 @@
 Project overview
 
 This repository contains an application that generates an annual activity report
-(Årsrapport) for a researcher based on their CRISTIN ID. It fetches
-publication data from the CRISTIN API, categorizes the publications
+(Årsrapport) for a researcher based on their NVA ID. It fetches
+publication data from the NVA/Cristin API, categorizes the publications
 (monographs, articles, anthologies, book reviews, etc.), and compiles them
 into a Word document using a template. It also summarises other activities
 (research participation, dissemination, supervision) as specified in the
-template and produces a pie chart of publication categories. A minimal
-Streamlit user interface allows users to input their CRISTIN ID, trigger
+template. A minimal
+Streamlit user interface allows users to input their NVA ID, trigger
 report generation, and download the finished Word document.
 
 Setup commands
@@ -38,10 +38,10 @@ app.py – Defines the Streamlit interface and glues together the report
 generation functions.
 
 report_generator.py – Contains the logic for interacting with the CRISTIN
-API, formatting APA‑style references, generating the category pie chart, and
+API, formatting APA‑style references, and
 filling the Word template via python-docx/docxtpl.
 
-templates/Årsrapport-plan_MAL.docx – The Word template for the annual
+templates/Aarsrapport-plan_MAL.docx – The Word template for the annual
 report. It includes numbered sections for research work, publishing,
 dissemination, and supervision. You should replace the example text with
 Jinja-style placeholders (e.g., {{published_articles_niva2}}) and ensure

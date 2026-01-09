@@ -1,14 +1,14 @@
-﻿# NVA Annual Report Generator
+# CRISTIN Annual Report Generator
 
-This project generates a filled annual report (Aarsrapport) from an NVA person ID and a Word template. The Streamlit UI lets a non-coder upload the institution template, select the report year, and download the completed report.
+This project generates a filled annual report (Aarsrapport) from a CRISTIN/NVA person ID and a Word template. The Streamlit UI lets a non-coder upload the institution template, select the report year, and download the completed report.
 
 ## Features
 
-- Fetches publication data from the NVA/CRISTIN API for a given person ID.
+- Fetches publication data from the CRISTIN API for a given person ID.
 - Filters publications by a user-selected year.
 - Formats APA-style references and groups them by publication category.
 - Fills a Word template (docxtpl) and returns the finished report.
-- Streamlit UI for quick, no-code use.
+- Streamlit UI for quick, no-code use, including optional manual activity fields.
 
 ## Requirements
 
@@ -26,11 +26,11 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-Open the local Streamlit page, upload your template (or use the default template in `templates/`), enter the NVA person ID, select the report year, and generate the report.
+Open the local Streamlit page, upload your template (or use the default template in `templates/`), enter the CRISTIN/NVA person ID, select the report year, and generate the report. The generated report is saved under `reports/` and can be downloaded directly from the UI.
 
 ## Template placeholders
 
-The default template in `templates/Aarsrapport-plan_MAL.docx` contains Jinja placeholders that this app fills. Custom templates must include the same placeholders. The template title is set to "Årsrapport for {{ report_year }} - {{ person_name }}".
+The default template in `templates/Aarsrapport-plan_MAL.docx` contains Jinja placeholders that this app fills. Custom templates must include the same placeholders.
 
 Required placeholders:
 
@@ -72,7 +72,7 @@ Optional placeholders (manual entry in the UI):
 - `{{ sensur_masteroppgave }}`
 - `{{ professor_vurderinger }}`
 
-Some formidling fields are also auto-populated from NVA categories when available:
+Some formidling fields are also auto-populated from CRISTIN categories when available:
 
 - `formidling_faglig`: lectures, academic lectures, posters, other presentations.
 - `formidling_media`: interviews, programme participation.
@@ -83,7 +83,7 @@ Manual input is appended after any auto-populated text.
 ## Project structure
 
 - `app.py` - Streamlit UI.
-- `report_generator.py` - NVA/CRISTIN API integration, categorization, and template rendering.
+- `report_generator.py` - CRISTIN API integration, categorization, and template rendering.
 - `templates/Aarsrapport-plan_MAL.docx` - Default Word template with placeholders.
 - `tests/` - Unit tests (pytest).
 - `requirements.txt` - Python dependencies.
@@ -104,5 +104,5 @@ Tests cover:
 
 ## Notes
 
-- The NVA/CRISTIN API may have rate limits. If you see errors, retry after a short pause.
+- The CRISTIN API may have rate limits. If you see errors, retry after a short pause.
 - The template is institution-standardized. Keep the structure intact and only replace content with placeholders.
