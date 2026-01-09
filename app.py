@@ -9,6 +9,52 @@ import streamlit as st
 from report_generator import generate_report, resolve_template_path
 
 
+MANUAL_SECTIONS = {
+    "Forskningsarbeid": [
+        (
+            "Internasjonal forskningsdeltagelse i grupper, prosjekter, multisenterstudier, "
+            "tverrfaglig",
+            "forskningsarbeid_internasjonal_deltagelse",
+        ),
+        (
+            "Internasjonal forskningsledelse for grupper, prosjekter, multisenterstudier studier",
+            "forskningsarbeid_internasjonal_ledelse",
+        ),
+        (
+            "Nasjonal forskningsdeltagelse, grupper, prosjekter, multisenter, tverrfaglig",
+            "forskningsarbeid_nasjonal_deltagelse",
+        ),
+        (
+            "Nasjonal forskningsledelse for grupper, prosjekter, multisenter studier",
+            "forskningsarbeid_nasjonal_ledelse",
+        ),
+        ("Innvilget søknad på forskningsmidler", "forskningsarbeid_innvilget_soknad"),
+        ("Utenlandsopphold (feltarbeid, utveksling, fellowships)", "forskningsarbeid_utenlandsopphold"),
+        ("Innovasjon", "forskningsarbeid_innovasjon"),
+        ("Deltagelse i nasjonale nettverk, workshops", "forskningsarbeid_nasjonale_nettverk"),
+        ("Deltagelse i internasjonale nettverk, workshops", "forskningsarbeid_internasjonale_nettverk"),
+    ],
+    "Formidling": [
+        (
+            "Faglig formidling, nasjonale og internasjonale konferanser, møter. Foredrag og abstracts",
+            "formidling_faglig",
+        ),
+        ("Politisk formidling, rapporter, NOU, ekspertgruppe", "formidling_politisk"),
+        ("Kronikker (aviser)", "formidling_kronikker"),
+        ("Populærvitenskapelig formidling, podcasts, etc.", "formidling_popularvitenskapelig"),
+        ("Tv, radio, avisintervjuer", "formidling_media"),
+    ],
+    "Veiledning og evaluering": [
+        ("Veiledning PhD", "veiledning_phd"),
+        ("Opponent PhD", "opponent_phd"),
+        ("Referee vitenskapelige artikler", "referee_vitenskapelige_artikler"),
+        ("Veiledning masteroppgave", "veiledning_masteroppgave"),
+        ("Sensur masteroppgave", "sensur_masteroppgave"),
+        ("Professor/1. amanuensis vurderinger", "professor_vurderinger"),
+    ],
+}
+
+
 st.set_page_config(
     page_title="CRISTIN Annual Report Generator",
     page_icon=":page_facing_up:",
@@ -17,6 +63,7 @@ st.set_page_config(
 
 
 def persist_uploaded_template(uploaded_file) -> Path:
+    """Persist the uploaded template to disk and return its path."""
     output_dir = Path("reports") / "uploaded_templates"
     output_dir.mkdir(parents=True, exist_ok=True)
     suffix = Path(uploaded_file.name).suffix or ".docx"
@@ -26,6 +73,7 @@ def persist_uploaded_template(uploaded_file) -> Path:
 
 
 def main() -> None:
+    """Run the Streamlit UI for generating annual reports."""
     st.title("NVA Annual Report Generator")
     st.write(
         "Upload a Word template, enter an NVA person ID, choose the report year, "
@@ -55,6 +103,21 @@ def main() -> None:
     )
     report_year = int(report_year)
 
+    manual_fields = {}
+    with st.expander("Andre aktiviteter (valgfritt)"):
+        st.caption(
+            "Legg inn fritekst for deler som ikke finnes i NVA. "
+            "Hvert felt er valgfritt og kan stå tomt."
+        )
+        for section, fields in MANUAL_SECTIONS.items():
+            st.subheader(section)
+            for label, key in fields:
+                manual_fields[key] = st.text_area(
+                    label,
+                    key=f"manual_{key}",
+                    placeholder="Skriv inn tekst (valgfritt)",
+                )
+
     generate = st.button("Generate Report")
 
     if generate:
@@ -82,6 +145,7 @@ def main() -> None:
                     person_id.strip(),
                     report_year=report_year,
                     template_path=template_path,
+                    manual_fields=manual_fields,
                 )
             except Exception as exc:  # Broad on purpose to bubble errors to the UI
                 st.error(f"Failed to generate report: {exc}")

@@ -3,6 +3,7 @@
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Dict, Iterable, List, Sequence
+import re
 import unicodedata
 
 import requests
@@ -23,6 +24,51 @@ CATEGORY_KEYS = [
     "publisert_book_review",
     "publisert_annet",
 ]
+
+MANUAL_FIELD_KEYS = [
+    "forskningsarbeid_internasjonal_deltagelse",
+    "forskningsarbeid_internasjonal_ledelse",
+    "forskningsarbeid_nasjonal_deltagelse",
+    "forskningsarbeid_nasjonal_ledelse",
+    "forskningsarbeid_innvilget_soknad",
+    "forskningsarbeid_utenlandsopphold",
+    "forskningsarbeid_innovasjon",
+    "forskningsarbeid_nasjonale_nettverk",
+    "forskningsarbeid_internasjonale_nettverk",
+    "formidling_faglig",
+    "formidling_politisk",
+    "formidling_kronikker",
+    "formidling_popularvitenskapelig",
+    "formidling_media",
+    "veiledning_phd",
+    "opponent_phd",
+    "referee_vitenskapelige_artikler",
+    "veiledning_masteroppgave",
+    "sensur_masteroppgave",
+    "professor_vurderinger",
+]
+
+NON_PUBLICATION_CATEGORY_CODES = {
+    "ACADEMICLECTURE",
+    "LECTURE",
+    "POSTER",
+    "OTHERPRES",
+    "MEDIAINTERVIEW",
+    "PROGRAMPARTICIP",
+    "ARTICLEFEATURE",
+    "READEROPINION",
+}
+
+FORMIDLING_CATEGORY_MAP = {
+    "ACADEMICLECTURE": "formidling_faglig",
+    "LECTURE": "formidling_faglig",
+    "POSTER": "formidling_faglig",
+    "OTHERPRES": "formidling_faglig",
+    "MEDIAINTERVIEW": "formidling_media",
+    "PROGRAMPARTICIP": "formidling_media",
+    "ARTICLEFEATURE": "formidling_kronikker",
+    "READEROPINION": "formidling_kronikker",
+}
 
 
 @dataclass(frozen=True)
@@ -112,16 +158,62 @@ def extract_person_name(person: dict) -> str:
 def extract_affiliation_names(person: dict) -> tuple[str, str]:
     """Extract institution name(s) from a CRISTIN person payload."""
     affiliations = person.get("affiliations") or person.get("employments") or []
+    names: List[str] = []
     for aff in affiliations:
         org = aff.get("organization") or aff.get("institution") or {}
         name_obj = org.get("name") or org.get("name_short") or org.get("title")
         if isinstance(name_obj, dict):
             for value in name_obj.values():
                 if value:
-                    return value, ""
-        if isinstance(name_obj, str) and name_obj.strip():
-            return name_obj.strip(), ""
-    return "", ""
+                    names.append(str(value).strip())
+        elif isinstance(name_obj, str) and name_obj.strip():
+            names.append(name_obj.strip())
+
+    deduped: List[str] = []
+    for name in names:
+        if name and name not in deduped:
+            deduped.append(name)
+        if len(deduped) >= 2:
+            break
+
+    primary = deduped[0] if deduped else ""
+    secondary = deduped[1] if len(deduped) > 1 else ""
+    return primary, secondary
+
+
+def extract_category_code_name(item: dict) -> tuple[str | None, str | None]:
+    """Return category code and display name if present."""
+    category = item.get("category")
+    if not isinstance(category, dict):
+        return None, None
+
+    code = category.get("code")
+    name_obj = category.get("name")
+    name = None
+    if isinstance(name_obj, dict):
+        name = next((value for value in name_obj.values() if value), None)
+    elif isinstance(name_obj, str):
+        name = name_obj
+
+    return code, name
+
+
+def sanitize_filename(value: str, fallback: str) -> str:
+    """Sanitize a filename segment while keeping it readable."""
+    cleaned = str(value or "").strip()
+    if not cleaned:
+        return fallback
+    cleaned = re.sub(r'[<>:"/\\\\|?*]+', "", cleaned)
+    cleaned = re.sub(r"\\s+", " ", cleaned).strip()
+    cleaned = cleaned.rstrip(". ")
+    return cleaned or fallback
+
+
+def build_output_filename(person_name: str, person_id: int | str, report_year: int | str) -> str:
+    """Build a user-friendly output filename."""
+    safe_name = sanitize_filename(person_name, sanitize_filename(str(person_id), "report"))
+    safe_year = sanitize_filename(str(report_year), "year")
+    return f"Aarsrapport_{safe_year}_{safe_name}.docx"
 
 
 def get_title(item: dict) -> str:
@@ -199,6 +291,8 @@ def extract_level(item: dict) -> str | None:
         item.get("publicationChannel", {}).get("level"),
         item.get("channel", {}).get("level"),
         item.get("journal", {}).get("level"),
+        item.get("channel", {}).get("nvi_level"),
+        item.get("journal", {}).get("nvi_level"),
     ]
 
     for value in candidates:
@@ -207,19 +301,21 @@ def extract_level(item: dict) -> str | None:
     return None
 
 
-def classify_publication(item: dict) -> str:
+def classify_publication(item: dict) -> str | None:
     """Map CRISTIN category to a template placeholder key."""
-    category_obj = item.get("category", {}).get("name", {})
-    category_label = ""
-    if isinstance(category_obj, dict):
-        for value in category_obj.values():
-            if value:
-                category_label = value
-                break
-    elif isinstance(category_obj, str):
-        category_label = category_obj
+    category_code, category_label = extract_category_code_name(item)
+    if category_code in NON_PUBLICATION_CATEGORY_CODES:
+        return None
 
-    normalized = normalize_text(category_label)
+    normalized = normalize_text(category_label or "")
+
+    if category_code == "ARTICLE":
+        level = extract_level(item) or "1"
+        return f"publisert_artikkel_niva{level}"
+
+    if category_code == "TEXTBOOK":
+        level = extract_level(item) or "1"
+        return f"publisert_monografi_niva{level}"
 
     if "book review" in normalized or "bokanmeldelse" in normalized:
         return "publisert_book_review"
@@ -247,9 +343,13 @@ def build_entries(items: Sequence[dict], report_year: int | str) -> List[Publica
         item_year = extract_year(item)
         if item_year != year_str:
             continue
-        reference = format_reference(item)
         category_key = classify_publication(item)
-        entries.append(PublicationEntry(reference=reference, category_key=category_key, year=item_year))
+        if not category_key:
+            continue
+        reference = format_reference(item)
+        entries.append(
+            PublicationEntry(reference=reference, category_key=category_key, year=item_year)
+        )
     return entries
 
 
@@ -269,6 +369,7 @@ def build_template_context(
     person_name: str,
     institution_name: str,
     institution_name_secondary: str,
+    manual_fields: Dict[str, str] | None = None,
 ) -> dict:
     """Prepare context for docxtpl template rendering."""
     grouped = group_references(entries)
@@ -295,7 +396,92 @@ def build_template_context(
     for key in CATEGORY_KEYS:
         context[key] = join_refs(key)
 
+    normalized_manual_fields = {key: "" for key in MANUAL_FIELD_KEYS}
+    if manual_fields:
+        for key in MANUAL_FIELD_KEYS:
+            value = manual_fields.get(key, "")
+            normalized_manual_fields[key] = str(value).strip()
+
+    context.update(normalized_manual_fields)
+
     return context
+
+
+def format_formidling_entry(item: dict) -> str:
+    """Format a dissemination/activity entry for manual fields."""
+    title = get_title(item)
+    year = extract_year(item) or "n.d."
+    authors = format_authors(item)
+    event = item.get("event") or {}
+    event_name = event.get("name")
+    event_location = event.get("location")
+    channel_title = (
+        (item.get("channel") or {}).get("title")
+        or (item.get("journal") or {}).get("name")
+    )
+
+    parts: List[str] = []
+    if authors and authors != "Unknown author":
+        parts.append(f"{authors} ({year}). {title}.")
+    else:
+        parts.append(f"{title} ({year}).")
+
+    if event_name:
+        venue = event_name
+        if event_location:
+            venue = f"{venue}, {event_location}"
+        parts.append(f"{venue}.")
+    elif channel_title:
+        parts.append(f"{channel_title}.")
+
+    return " ".join(parts).strip()
+
+
+def build_auto_manual_fields(items: Sequence[dict], report_year: int | str) -> Dict[str, str]:
+    """Populate manual fields from NVA categories where possible."""
+    year_str = str(report_year)
+    grouped: Dict[str, List[str]] = {key: [] for key in MANUAL_FIELD_KEYS}
+
+    for item in items:
+        item_year = extract_year(item)
+        if item_year != year_str:
+            continue
+
+        category_code, category_label = extract_category_code_name(item)
+        manual_key = None
+        if category_code and category_code in FORMIDLING_CATEGORY_MAP:
+            manual_key = FORMIDLING_CATEGORY_MAP[category_code]
+        elif category_label:
+            normalized = normalize_text(category_label)
+            if "interview" in normalized:
+                manual_key = "formidling_media"
+            elif "poster" in normalized or "presentation" in normalized or "lecture" in normalized:
+                manual_key = "formidling_faglig"
+
+        if not manual_key:
+            continue
+
+        grouped.setdefault(manual_key, []).append(format_formidling_entry(item))
+
+    return {key: "\n\n".join(values) if values else "" for key, values in grouped.items()}
+
+
+def merge_manual_fields(
+    auto_fields: Dict[str, str], manual_fields: Dict[str, str] | None
+) -> Dict[str, str]:
+    """Combine auto-populated and user-provided manual fields."""
+    merged: Dict[str, str] = {key: "" for key in MANUAL_FIELD_KEYS}
+    manual_fields = manual_fields or {}
+
+    for key in MANUAL_FIELD_KEYS:
+        auto_value = str(auto_fields.get(key, "")).strip()
+        manual_value = str(manual_fields.get(key, "")).strip()
+        if auto_value and manual_value:
+            merged[key] = f"{auto_value}\n\n{manual_value}"
+        else:
+            merged[key] = manual_value or auto_value
+
+    return merged
 
 
 def resolve_template_path(base_dir: Path | None = None) -> Path:
@@ -324,10 +510,13 @@ def generate_report(
     output_dir: Path = DEFAULT_OUTPUT_DIR,
     template_path: Path | None = None,
     session: requests.Session | None = None,
+    manual_fields: Dict[str, str] | None = None,
 ) -> Path:
     """High-level helper: fetch data, build context, and fill the template."""
     publications = fetch_publications(person_id, session=session)
     entries = build_entries(publications, report_year)
+    auto_manual_fields = build_auto_manual_fields(publications, report_year)
+    merged_manual_fields = merge_manual_fields(auto_manual_fields, manual_fields)
 
     person_name = "Ukjent navn"
     institution_name = ""
@@ -346,9 +535,11 @@ def generate_report(
         person_name,
         institution_name,
         institution_name_secondary,
+        manual_fields=merged_manual_fields,
     )
     template = template_path or resolve_template_path()
-    output_path = output_dir / f"{person_id}_{report_year}_arsrapport.docx"
+    output_filename = build_output_filename(person_name, person_id, report_year)
+    output_path = output_dir / output_filename
     return render_report(context, template, output_path)
 
 

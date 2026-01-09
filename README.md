@@ -30,7 +30,7 @@ Open the local Streamlit page, upload your template (or use the default template
 
 ## Template placeholders
 
-The default template in `templates/Aarsrapport-plan_MAL.docx` contains Jinja placeholders that this app fills. Custom templates must include the same placeholders.
+The default template in `templates/Aarsrapport-plan_MAL.docx` contains Jinja placeholders that this app fills. Custom templates must include the same placeholders. The template title is set to "Årsrapport for {{ report_year }} - {{ person_name }}".
 
 Required placeholders:
 
@@ -48,6 +48,37 @@ Required placeholders:
 - `{{ publisert_annet }}`
 
 Each publication placeholder is replaced with a double newline-separated list of APA-style references for the selected year.
+
+Optional placeholders (manual entry in the UI):
+
+- `{{ forskningsarbeid_internasjonal_deltagelse }}`
+- `{{ forskningsarbeid_internasjonal_ledelse }}`
+- `{{ forskningsarbeid_nasjonal_deltagelse }}`
+- `{{ forskningsarbeid_nasjonal_ledelse }}`
+- `{{ forskningsarbeid_innvilget_soknad }}`
+- `{{ forskningsarbeid_utenlandsopphold }}`
+- `{{ forskningsarbeid_innovasjon }}`
+- `{{ forskningsarbeid_nasjonale_nettverk }}`
+- `{{ forskningsarbeid_internasjonale_nettverk }}`
+- `{{ formidling_faglig }}`
+- `{{ formidling_politisk }}`
+- `{{ formidling_kronikker }}`
+- `{{ formidling_popularvitenskapelig }}`
+- `{{ formidling_media }}`
+- `{{ veiledning_phd }}`
+- `{{ opponent_phd }}`
+- `{{ referee_vitenskapelige_artikler }}`
+- `{{ veiledning_masteroppgave }}`
+- `{{ sensur_masteroppgave }}`
+- `{{ professor_vurderinger }}`
+
+Some formidling fields are also auto-populated from NVA categories when available:
+
+- `formidling_faglig`: lectures, academic lectures, posters, other presentations.
+- `formidling_media`: interviews, programme participation.
+- `formidling_kronikker`: feature articles, reader opinion pieces.
+
+Manual input is appended after any auto-populated text.
 
 ## Project structure
 

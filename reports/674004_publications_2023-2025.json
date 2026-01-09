@@ -1,0 +1,998 @@
+[
+  {
+    "category": {
+      "code": "OTHER",
+      "name": {
+        "en": "Other"
+      }
+    },
+    "contributors": {
+      "url": "https://api.cristin.no/v2/results/10277940/contributors",
+      "count": 1,
+      "preview": [
+        {
+          "first_name": "Magnus Helgheim",
+          "surname": "Blystad"
+        }
+      ]
+    },
+    "cristin_result_id": "10277940",
+    "nva_result_id": "019a253c47df-841a0fbf-b1c8-4a73-8544-fd46dda319d3",
+    "created": {
+      "date": "2025-10-27T10:34:58.000Z"
+    },
+    "last_modified": {
+      "date": "2025-10-27T10:36:11.000Z"
+    },
+    "date_published": "2025-09-04T00:00:00.000Z",
+    "links": [
+      {
+        "url_type": "DOI",
+        "url": "https://doi.org/https://www.linkedin.com/pulse/how-students-can-use-ai-ethically-support-learning-magnus-blystad-0pxpc/"
+      },
+      {
+        "url_type": "ARKIV",
+        "url": "https://hdl.handle.net/11250/5275529"
+      }
+    ],
+    "original_language": "nb",
+    "summary": {
+      "nb": "Disclaimer: I recieved an email about this topic from LinkedIn, but as I have been spending a lot of time, and work, on this topic, such as this Norwegian piece on using AI to support learning: https://www.forskersonen."
+    },
+    "title": {
+      "nb": "How students can use AI ethically to support their learning"
+    },
+    "year_published": "2025",
+    "url": "https://api.cristin.no/v2/results/10277940"
+  },
+  {
+    "category": {
+      "code": "ARTICLEFEATURE",
+      "name": {
+        "en": "Feature article"
+      }
+    },
+    "channel": {},
+    "contributors": {
+      "url": "https://api.cristin.no/v2/results/10277936/contributors",
+      "count": 1,
+      "preview": [
+        {
+          "first_name": "Magnus Helgheim",
+          "surname": "Blystad"
+        }
+      ]
+    },
+    "cristin_result_id": "10277936",
+    "nva_result_id": "019a2538f395-8e7f41fe-6e7c-484c-ac92-f7ab7dfc560c",
+    "created": {
+      "date": "2025-10-27T10:31:20.000Z"
+    },
+    "last_modified": {
+      "date": "2025-10-27T10:33:52.000Z"
+    },
+    "date_published": "2025-08-26T00:00:00.000Z",
+    "links": [
+      {
+        "url_type": "DOI",
+        "url": "https://doi.org/https://www.forskersonen.no/elever-kronikk-kunstig-intelligens/ki-kan-bli-en-personlig-laerer/2467799"
+      },
+      {
+        "url_type": "ARKIV",
+        "url": "https://hdl.handle.net/11250/5275525"
+      }
+    ],
+    "original_language": "nb",
+    "summary": {
+      "nb": "KRONIKK: Ungdomsskoleelever som bruker KI lærer mer – eller får i hvert fall bedre karakterer, skriver kronikkforfatteren."
+    },
+    "title": {
+      "nb": "KI  kan bli en personlig lærer"
+    },
+    "year_published": "2025",
+    "url": "https://api.cristin.no/v2/results/10277936",
+    "journal": {}
+  },
+  {
+    "category": {
+      "code": "READEROPINION",
+      "name": {
+        "en": "Reader opinion piece"
+      }
+    },
+    "channel": {
+      "title": "Tidsskrift for Norsk psykologforening (Psykologtidsskriftet)"
+    },
+    "contributors": {
+      "url": "https://api.cristin.no/v2/results/10277935/contributors",
+      "count": 1,
+      "preview": [
+        {
+          "first_name": "Magnus Helgheim",
+          "surname": "Blystad"
+        }
+      ]
+    },
+    "cristin_result_id": "10277935",
+    "nva_result_id": "019a25377a71-a9c7b962-99d5-4640-89bc-f5db9c8dc5b5",
+    "created": {
+      "date": "2025-10-27T10:29:44.000Z"
+    },
+    "last_modified": {
+      "date": "2026-01-07T09:31:56.000Z"
+    },
+    "date_published": "2025-09-11T00:00:00.000Z",
+    "links": [
+      {
+        "url_type": "DOI",
+        "url": "https://doi.org/https://www.psykologtidsskriftet.no/artikkel/2025as09ae-KI-far-ikke-darlig-samvittighet"
+      },
+      {
+        "url_type": "ARKIV",
+        "url": "https://hdl.handle.net/11250/5275523"
+      }
+    ],
+    "original_language": "nb",
+    "summary": {
+      "nb": "For å kunne utnytte mulighetsrommet i KI når det gjelder psykisk helse, må vi ha KI-ferdigheter for å kjempe mot utfordringene."
+    },
+    "title": {
+      "nb": "KI får ikke dårlig samvittighet"
+    },
+    "year_published": "2025",
+    "url": "https://api.cristin.no/v2/results/10277935",
+    "journal": {
+      "cristin_journal_id": "9AA97551-C498-4335-A436-1612A6D9A322",
+      "name": "Tidsskrift for Norsk psykologforening (Psykologtidsskriftet)",
+      "international_standard_numbers": [
+        {
+          "type": "printed",
+          "value": "0332-6470"
+        },
+        {
+          "type": "electronic",
+          "value": "2703-9528"
+        }
+      ],
+      "nvi_level": "1",
+      "external_url": "https://kanalregister.hkdir.no/publiseringskanaler/info/tidsskrift?pid=9AA97551-C498-4335-A436-1612A6D9A322"
+    }
+  },
+  {
+    "category": {
+      "code": "ACADEMICLECTURE",
+      "name": {
+        "en": "Academic lecture"
+      }
+    },
+    "contributors": {
+      "url": "https://api.cristin.no/v2/results/10277934/contributors",
+      "count": 1,
+      "preview": [
+        {
+          "first_name": "Magnus Helgheim",
+          "surname": "Blystad"
+        }
+      ]
+    },
+    "cristin_result_id": "10277934",
+    "nva_result_id": "019a253464cf-5245a592-13b1-4445-b613-718720de00ab",
+    "created": {
+      "date": "2025-10-27T10:26:22.000Z"
+    },
+    "last_modified": {
+      "date": "2025-10-27T10:28:58.000Z"
+    },
+    "date_published": "2025-05-09T00:00:00.000Z",
+    "links": [
+      {
+        "url_type": "ARKIV",
+        "url": "https://hdl.handle.net/11250/5275519"
+      }
+    ],
+    "original_language": "nb",
+    "title": {
+      "nb": "Sanser og nevral funksjon  - Fra input til atferd"
+    },
+    "year_published": "2025",
+    "url": "https://api.cristin.no/v2/results/10277934",
+    "event": {
+      "name": "NAFO Seminaret 2025",
+      "location": "Storefjell",
+      "date_from": "2025-05-08T22:00:00.000Z",
+      "date_to": "2025-05-08T22:00:00.000Z",
+      "arranged_by": {
+        "name": "Norsk Atferdsanalytisk Forening"
+      }
+    }
+  },
+  {
+    "category": {
+      "code": "OTHERPRES",
+      "name": {
+        "en": "Other presentation"
+      }
+    },
+    "contributors": {
+      "url": "https://api.cristin.no/v2/results/10277929/contributors",
+      "count": 4,
+      "preview": [
+        {
+          "first_name": "Magnus Helgheim",
+          "surname": "Blystad"
+        },
+        {
+          "first_name": "Pedram",
+          "surname": "Sadeghi"
+        },
+        {
+          "first_name": "Espen A.",
+          "surname": "Sjøberg"
+        },
+        {
+          "first_name": "Gunnar",
+          "surname": "Ree"
+        }
+      ]
+    },
+    "cristin_result_id": "10277929",
+    "nva_result_id": "019a252d0410-3501c433-c9e9-415b-acef-c5f5e5d5d432",
+    "created": {
+      "date": "2025-10-27T10:18:18.000Z"
+    },
+    "last_modified": {
+      "date": "2025-10-27T10:26:18.000Z"
+    },
+    "date_published": "2025-05-09T00:00:00.000Z",
+    "links": [
+      {
+        "url_type": "ARKIV",
+        "url": "https://hdl.handle.net/11250/5275517"
+      }
+    ],
+    "original_language": "nb",
+    "summary": {
+      "nb": "Symposiet viser hvordan nevrovitenskap, atferd og evolusjon er tett sammenvevd, og hvordan biologiske prosesser formidler atferd. Med utgangspunkt i hjernens rolle i å bearbeide stimuli og koble biologiske mekanismer til atferd, belyses hvordan disse innsiktene kan anvendes til å forstå læring, tilpasning og effektive atferdsintervensjoner. Et evolusjonært perspektiv gir videre innsikt i hvordan hjernen og atferd er formet over tid gjennom naturlig seleksjon, og hvordan dette danner grunnlaget for både biologisk og atferdsmessig utvikling. Gjennom en helhetlig tilnærming knyttes perspektivene sammen i siste innlegg, og det vises hvordan denne integrasjonen gir en dypere forståelse av komplekse atferdsprosesser som kan anvendes både i forskning og praksis."
+    },
+    "title": {
+      "nb": "Hjernen og atferd - Atferds­analyse, nevrovitenskap og evolusjon"
+    },
+    "year_published": "2025",
+    "url": "https://api.cristin.no/v2/results/10277929"
+  },
+  {
+    "category": {
+      "code": "POSTER",
+      "name": {
+        "en": "Poster"
+      }
+    },
+    "contributors": {
+      "url": "https://api.cristin.no/v2/results/10277923/contributors",
+      "count": 4,
+      "preview": [
+        {
+          "first_name": "Magnus Helgheim",
+          "surname": "Blystad"
+        },
+        {
+          "first_name": "Peder Mortvedt",
+          "surname": "Isager"
+        },
+        {
+          "first_name": "Ellie V. D.",
+          "surname": "Bastos"
+        },
+        {
+          "first_name": "Johanna Katarina Blomster",
+          "surname": "Lyshol"
+        }
+      ]
+    },
+    "cristin_result_id": "10277923",
+    "nva_result_id": "019a252584b8-e143371e-a9d8-4961-aae9-ffd6587f63c8",
+    "created": {
+      "date": "2025-10-27T10:10:07.000Z"
+    },
+    "last_modified": {
+      "date": "2025-10-27T10:18:03.000Z"
+    },
+    "links": [
+      {
+        "url_type": "ARKIV",
+        "url": "https://hdl.handle.net/11250/5275511"
+      }
+    ],
+    "original_language": "nb",
+    "summary": {
+      "nb": "Preliminary quantitative and qualitative data from a project on empathy understanding amongst Norwegian students in nursing and psychology."
+    },
+    "title": {
+      "nb": "Empathy understanding amongst psychology and nursing students"
+    },
+    "year_published": "2025",
+    "url": "https://api.cristin.no/v2/results/10277923",
+    "event": {
+      "name": "Norwegian Conference on Social, Community, and Work Psychology",
+      "location": "Tromsø",
+      "date_from": "2025-10-15T22:00:00.000Z",
+      "date_to": "2025-10-16T22:00:00.000Z",
+      "arranged_by": {
+        "name": "UiT"
+      }
+    }
+  },
+  {
+    "category": {
+      "code": "POSTER",
+      "name": {
+        "en": "Poster"
+      }
+    },
+    "contributors": {
+      "url": "https://api.cristin.no/v2/results/2379907/contributors",
+      "count": 4,
+      "preview": [
+        {
+          "first_name": "Magnus Helgheim",
+          "surname": "Blystad"
+        },
+        {
+          "first_name": "Rafael Valdece Sousa",
+          "surname": "Bastos"
+        },
+        {
+          "first_name": "Peder Mortvedt",
+          "surname": "Isager"
+        },
+        {
+          "first_name": "Johanna Katarina Blomster",
+          "surname": "Lyshol"
+        }
+      ]
+    },
+    "cristin_result_id": "2379907",
+    "nva_result_id": "0198cc4fc5cd-3581da0f-7f98-4045-87b7-5f1f537c3328",
+    "created": {
+      "date": "2025-08-21T11:07:16.000Z"
+    },
+    "last_modified": {
+      "date": "2025-10-13T16:09:41.000Z"
+    },
+    "links": [
+      {
+        "url_type": "ARKIV",
+        "url": "https://hdl.handle.net/11250/4598831"
+      }
+    ],
+    "original_language": "nb",
+    "title": {
+      "nb": "Hva er empati for deg? Forståelse av empatibegrepet blant studenter innen psykologi og sykepleie bachelorprogram"
+    },
+    "year_published": "2025",
+    "url": "https://api.cristin.no/v2/results/2379907",
+    "event": {
+      "name": "NAFO-seminaret 2025 ",
+      "location": "Storefjell, Norge",
+      "date_from": "2025-05-09T00:00:00.000Z",
+      "date_to": "2025-05-09T00:00:00.000Z",
+      "arranged_by": {
+        "name": "Norsk Atferdsanalytisk Forening"
+      }
+    }
+  },
+  {
+    "category": {
+      "code": "ARTICLE",
+      "name": {
+        "en": "Academic article"
+      }
+    },
+    "channel": {
+      "title": "Journal of Social Psychology"
+    },
+    "contributors": {
+      "url": "https://api.cristin.no/v2/results/2372752/contributors",
+      "count": 4,
+      "preview": [
+        {
+          "first_name": "Johanna Katarina Blomster",
+          "surname": "Lyshol"
+        },
+        {
+          "first_name": "Rafael Valdece Sousa",
+          "surname": "Bastos"
+        },
+        {
+          "first_name": "Peder Mortvedt",
+          "surname": "Isager"
+        },
+        {
+          "first_name": "Magnus Helgheim",
+          "surname": "Blystad"
+        }
+      ]
+    },
+    "cristin_result_id": "2372752",
+    "nva_result_id": "0198cc42774a-f060fb1d-9206-47f3-bc08-629385620820",
+    "created": {
+      "date": "2025-08-21T10:52:44.000Z"
+    },
+    "import_sources": [
+      {
+        "source_name": "SCOPUS",
+        "source_reference_id": "2-s2.0-105002576245"
+      }
+    ],
+    "last_modified": {
+      "date": "2026-01-07T13:18:51.000Z"
+    },
+    "links": [
+      {
+        "url_type": "DOI",
+        "url": "https://doi.org/10.1080/00224545.2025.2482014"
+      },
+      {
+        "url_type": "ARKIV",
+        "url": "https://hdl.handle.net/11250/4509166"
+      }
+    ],
+    "original_language": "en",
+    "title": {
+      "en": "What is empathy for laypeople?–A replication study of Hall, Schwartz, and Duong (2021)"
+    },
+    "year_published": "2025",
+    "url": "https://api.cristin.no/v2/results/2372752",
+    "journal": {
+      "cristin_journal_id": "493C41BC-207F-4EE8-95DE-DC290DF354EE",
+      "name": "Journal of Social Psychology",
+      "international_standard_numbers": [
+        {
+          "type": "printed",
+          "value": "0022-4545"
+        },
+        {
+          "type": "electronic",
+          "value": "1940-1183"
+        }
+      ],
+      "nvi_level": "1",
+      "external_url": "https://kanalregister.hkdir.no/publiseringskanaler/info/tidsskrift?pid=493C41BC-207F-4EE8-95DE-DC290DF354EE"
+    }
+  },
+  {
+    "category": {
+      "code": "ARTICLE",
+      "name": {
+        "en": "Academic article"
+      }
+    },
+    "channel": {
+      "title": "Tidsskrift for Norsk psykologforening (Psykologtidsskriftet)"
+    },
+    "contributors": {
+      "url": "https://api.cristin.no/v2/results/2219967/contributors",
+      "count": 2,
+      "preview": [
+        {
+          "first_name": "Magnus Helgheim",
+          "surname": "Blystad"
+        },
+        {
+          "first_name": "Simen Christensen",
+          "surname": "Grøgaard"
+        }
+      ]
+    },
+    "cristin_result_id": "2219967",
+    "nva_result_id": "0198cc7728aa-d62b058e-13b7-46d6-8a99-8e58338ca6b5",
+    "created": {
+      "date": "2025-08-21T11:50:18.000Z"
+    },
+    "last_modified": {
+      "date": "2025-10-13T19:13:37.000Z"
+    },
+    "links": [
+      {
+        "url_type": "DOI",
+        "url": "https://doi.org/10.52734/ERKP8472"
+      },
+      {
+        "url_type": "ARKIV",
+        "url": "https://hdl.handle.net/11250/4934003"
+      },
+      {
+        "url_type": "FULLTEKST",
+        "url": "https://www.nb.no/items/cc26ff8b292406b6592cac7343da6baa?page=33&searchText=Empatiens%20mange%20ansikter:%20fenomenologisk%20og%20positivistisk%20empati"
+      }
+    ],
+    "original_language": "nb",
+    "summary": {
+      "nb": "Understanding of the concept of empathy is often subject to change. The manifold conceptualisations, as well as the terminological ambiguities regarding the concept, are observed by studying interdisciplinary, overlapping and even contrasting perspectives of the phenomena across public discourse and academic literature. In this article we do not attempt to reduce the concept of empathy to a single entity, but rather strive to illuminate the many approaches to it. We identify a categorisation of the literature on empathy into two overarching approaches and propose two prototypical epistemological positions that might describe the definitional variations in understanding and applying it, namely a phenomenological or a positivist model underlying understandings of the concept. These two categories encompass wide subsets of traditions and perspectives which we summarise in a nomological network. Such a framing enables us to document the basis for the concept of empathy within a diversity of disciplinary traditions."
+    },
+    "title": {
+      "nb": "Empatiens mange ansikter: fenomenologisk og positivistisk empati"
+    },
+    "year_published": "2024",
+    "url": "https://api.cristin.no/v2/results/2219967",
+    "journal": {
+      "cristin_journal_id": "9AA97551-C498-4335-A436-1612A6D9A322",
+      "name": "Tidsskrift for Norsk psykologforening (Psykologtidsskriftet)",
+      "international_standard_numbers": [
+        {
+          "type": "printed",
+          "value": "0332-6470"
+        },
+        {
+          "type": "electronic",
+          "value": "2703-9528"
+        }
+      ],
+      "nvi_level": "1",
+      "external_url": "https://kanalregister.hkdir.no/publiseringskanaler/info/tidsskrift?pid=9AA97551-C498-4335-A436-1612A6D9A322"
+    },
+    "volume": "61",
+    "issue": "1",
+    "pages": {
+      "from": "32",
+      "to": "43"
+    }
+  },
+  {
+    "category": {
+      "code": "LECTURE",
+      "name": {
+        "en": "Lecture"
+      }
+    },
+    "contributors": {
+      "url": "https://api.cristin.no/v2/results/2312136/contributors",
+      "count": 1,
+      "preview": [
+        {
+          "first_name": "Magnus Helgheim",
+          "surname": "Blystad"
+        }
+      ]
+    },
+    "cristin_result_id": "2312136",
+    "nva_result_id": "0198cc6870af-0505c8f6-c451-4171-a773-2be0fda960ed",
+    "created": {
+      "date": "2025-08-21T11:34:13.000Z"
+    },
+    "last_modified": {
+      "date": "2025-10-12T04:56:34.000Z"
+    },
+    "links": [
+      {
+        "url_type": "ARKIV",
+        "url": "https://hdl.handle.net/11250/3727874"
+      }
+    ],
+    "original_language": "nb",
+    "title": {
+      "nb": "Sosial Nevrovitenskap - Rotter, grupper og empati"
+    },
+    "year_published": "2024",
+    "url": "https://api.cristin.no/v2/results/2312136",
+    "event": {
+      "name": "Gjesteforelesning i Psykologi ved Oslo Katedralskole",
+      "location": "Oslo",
+      "date_from": "2024-10-15T00:00:00.000Z",
+      "date_to": "2024-10-15T00:00:00.000Z",
+      "arranged_by": {
+        "name": "Oslo Katedralskole"
+      }
+    }
+  },
+  {
+    "category": {
+      "code": "MEDIAINTERVIEW",
+      "name": {
+        "en": "Interview"
+      }
+    },
+    "contributors": {
+      "url": "https://api.cristin.no/v2/results/2318997/contributors",
+      "count": 3,
+      "preview": [
+        {
+          "first_name": "Synnøve",
+          "surname": "Fonneland"
+        },
+        {
+          "first_name": "Jo Fosby",
+          "surname": "Jaavall"
+        },
+        {
+          "first_name": "Magnus Helgheim",
+          "surname": "Blystad"
+        }
+      ]
+    },
+    "cristin_result_id": "2318997",
+    "nva_result_id": "0198cc613274-1e89e953-4ce2-4968-9aad-8a9c7bd3f184",
+    "created": {
+      "date": "2025-08-21T11:26:18.000Z"
+    },
+    "last_modified": {
+      "date": "2025-10-14T02:18:47.000Z"
+    },
+    "links": [
+      {
+        "url_type": "ARKIV",
+        "url": "https://hdl.handle.net/11250/5070561"
+      }
+    ],
+    "original_language": "nb",
+    "title": {
+      "nb": "De vil gjøre det lettere å lære om hjernen"
+    },
+    "year_published": "2024",
+    "url": "https://api.cristin.no/v2/results/2318997",
+    "media_type": {
+      "code": "TIDSSKRIFT",
+      "code_name": {
+        "en": "Journal"
+      }
+    },
+    "place": "Psykologisk.no"
+  },
+  {
+    "category": {
+      "code": "MEDIAINTERVIEW",
+      "name": {
+        "en": "Interview"
+      }
+    },
+    "contributors": {
+      "url": "https://api.cristin.no/v2/results/2345440/contributors",
+      "count": 2,
+      "preview": [
+        {
+          "first_name": "Magnus Helgheim",
+          "surname": "Blystad"
+        },
+        {
+          "first_name": "Erlend",
+          "surname": "Frafjord"
+        }
+      ]
+    },
+    "cristin_result_id": "2345440",
+    "nva_result_id": "0198cc5541c7-1f344c2e-1570-4354-8abb-101d9c75072b",
+    "created": {
+      "date": "2025-08-21T11:13:16.000Z"
+    },
+    "last_modified": {
+      "date": "2025-10-13T18:35:42.000Z"
+    },
+    "date_published": "2024-08-01T00:00:00.000Z",
+    "links": [
+      {
+        "url_type": "ARKIV",
+        "url": "https://hdl.handle.net/11250/4864210"
+      }
+    ],
+    "original_language": "nb",
+    "title": {
+      "nb": "Norges farligste - tre forvaringsdømte forteller (Bok)"
+    },
+    "year_published": "2024",
+    "url": "https://api.cristin.no/v2/results/2345440",
+    "media_type": {
+      "code": "TIDSSKRIFT",
+      "code_name": {
+        "en": "Journal"
+      }
+    },
+    "place": "Bok utgivelse"
+  },
+  {
+    "category": {
+      "code": "TEXTBOOK",
+      "name": {
+        "en": "Textbook"
+      }
+    },
+    "channel": {
+      "title": "Fagbokforlaget"
+    },
+    "contributors": {
+      "url": "https://api.cristin.no/v2/results/2286632/contributors",
+      "count": 2,
+      "preview": [
+        {
+          "first_name": "Magnus Helgheim",
+          "surname": "Blystad"
+        },
+        {
+          "first_name": "Jo Fosby",
+          "surname": "Jaavall"
+        }
+      ]
+    },
+    "cristin_result_id": "2286632",
+    "nva_result_id": "0198cc482d5d-02b3104e-23d5-4191-becb-a3110ce7e344",
+    "created": {
+      "date": "2025-08-21T10:58:59.000Z"
+    },
+    "last_modified": {
+      "date": "2025-10-14T03:30:25.000Z"
+    },
+    "links": [
+      {
+        "url_type": "ARKIV",
+        "url": "https://hdl.handle.net/11250/5205124"
+      }
+    ],
+    "original_language": "nb",
+    "summary": {
+      "nb": "Nevrobiologi er studiet av kroppens nervesystem, inkludert hjernen og ryggmargen, og hvordan dette fungerer og kommuniserer. Nervesystemet former atferd og kognitive prosesser og bestemmer på mange måter hvem du er og hva du gjør.\r\nGrunnleggende nevrobiologi gir en kortfattet, lett tilgjengelig og rikt illustrert innføring i denne disiplinen. Forfatterne viser på en enkel og pedagogisk måte hvordan atomer og molekyler danner basis for nervecellene. Nervecellene sender signaler, danner nettverk og ligger til grunn for blant annet tenkning, sansning og følelser.\r\nLeseren trenger ingen tidligere kunnskap om biologi, kjemi eller psykologi for å forstå innholdet i denne boken. Målet er nettopp å gjøre stoffet tilgjengelig og eventuelt fungere som et springbrett til mer avansert litteratur. Enten du er ny student innen psykologi, vernepleie eller andre felt der kunnskap om nervesystemet og atferd er verdifullt, eller bare er nysgjerrig på hvordan nervesystemet fungerer, vil denne boken være nyttig."
+    },
+    "title": {
+      "nb": "Grunnleggende nevrobiologi: En introduksjon til biologisk psykologi"
+    },
+    "year_published": "2024",
+    "url": "https://api.cristin.no/v2/results/2286632",
+    "number_of_pages": "192",
+    "publisher": {
+      "name": "Fagbokforlaget",
+      "url": "https://kanalregister.hkdir.no/publiseringskanaler/info/forlag?pid=D0CC505A-1A53-4AA1-B6C9-D886FE2E6351",
+      "nvi_level": "1"
+    },
+    "international_standard_numbers": [
+      {
+        "type": "printed",
+        "value": "9788245047783"
+      }
+    ]
+  },
+  {
+    "category": {
+      "code": "PROGRAMPARTICIP",
+      "name": {
+        "en": "Programme participation"
+      }
+    },
+    "contributors": {
+      "url": "https://api.cristin.no/v2/results/2124127/contributors",
+      "count": 2,
+      "preview": [
+        {
+          "first_name": "Mette Espe",
+          "surname": "Myrmæl"
+        },
+        {
+          "first_name": "Magnus Helgheim",
+          "surname": "Blystad"
+        }
+      ]
+    },
+    "cristin_result_id": "2124127",
+    "nva_result_id": "0198cc676d8b-3538046d-376a-4bc1-a362-d1a06050a49d",
+    "created": {
+      "date": "2025-08-21T11:33:07.000Z"
+    },
+    "last_modified": {
+      "date": "2025-10-13T18:26:15.000Z"
+    },
+    "date_published": "2023-02-06T00:00:00.000Z",
+    "links": [
+      {
+        "url_type": "ARKIV",
+        "url": "https://hdl.handle.net/11250/4846830"
+      }
+    ],
+    "original_language": "nb",
+    "title": {
+      "nb": "Psykt Interessant! - Den fascinerende hjernen"
+    },
+    "year_published": "2023",
+    "url": "https://api.cristin.no/v2/results/2124127",
+    "media_type": {
+      "code": "INTERNETT",
+      "code_name": {
+        "en": "Internet"
+      }
+    },
+    "place": "Spotify"
+  },
+  {
+    "category": {
+      "code": "ACADEMICLECTURE",
+      "name": {
+        "en": "Academic lecture"
+      }
+    },
+    "contributors": {
+      "url": "https://api.cristin.no/v2/results/2144671/contributors",
+      "count": 4,
+      "preview": [
+        {
+          "first_name": "Johanna Katarina Blomster",
+          "surname": "Lyshol"
+        },
+        {
+          "first_name": "Magnus Helgheim",
+          "surname": "Blystad"
+        },
+        {
+          "first_name": "Peder Mortvedt",
+          "surname": "Isager"
+        },
+        {
+          "first_name": "Rafael",
+          "surname": "Bastos"
+        }
+      ]
+    },
+    "cristin_result_id": "2144671",
+    "nva_result_id": "0198cc5f903e-3adcf01a-72ff-4d02-893b-ff3e5663ebac",
+    "created": {
+      "date": "2025-08-21T11:24:31.000Z"
+    },
+    "last_modified": {
+      "date": "2025-10-11T17:27:47.000Z"
+    },
+    "links": [
+      {
+        "url_type": "ARKIV",
+        "url": "https://hdl.handle.net/11250/3464996"
+      }
+    ],
+    "original_language": "en",
+    "title": {
+      "en": "Empathy among laypeople - Replication of Hall, Schwartz, & Duong, 2021"
+    },
+    "year_published": "2023",
+    "url": "https://api.cristin.no/v2/results/2144671",
+    "event": {
+      "name": "Norwegian Social and Community Psychology Conference 2023",
+      "location": "Trondheim",
+      "date_from": "2023-04-27T00:00:00.000Z",
+      "date_to": "2023-04-28T00:00:00.000Z",
+      "arranged_by": {
+        "name": "NTNU"
+      }
+    }
+  },
+  {
+    "category": {
+      "code": "ARTICLE",
+      "name": {
+        "en": "Academic article"
+      }
+    },
+    "channel": {
+      "title": "Revista Mexicana de Analisis de la Conducta"
+    },
+    "contributors": {
+      "url": "https://api.cristin.no/v2/results/2165749/contributors",
+      "count": 4,
+      "preview": [
+        {
+          "first_name": "Magnus Helgheim",
+          "surname": "Blystad"
+        },
+        {
+          "first_name": "Patrick Asare",
+          "surname": "Hansen"
+        },
+        {
+          "first_name": "Danielle",
+          "surname": "Andersen"
+        },
+        {
+          "first_name": "Espen Borgå",
+          "surname": "Johansen"
+        }
+      ]
+    },
+    "cristin_result_id": "2165749",
+    "nva_result_id": "0198cc536573-db208657-74a8-429b-a579-50ae4d223904",
+    "created": {
+      "date": "2025-08-21T11:11:14.000Z"
+    },
+    "import_sources": [
+      {
+        "source_name": "SCOPUS",
+        "source_reference_id": "2-s2.0-85216832814"
+      }
+    ],
+    "last_modified": {
+      "date": "2025-10-13T10:20:39.000Z"
+    },
+    "links": [
+      {
+        "url_type": "DOI",
+        "url": "https://doi.org/10.5514/rmac.v49.i1.86204"
+      },
+      {
+        "url_type": "ARKIV",
+        "url": "https://hdl.handle.net/11250/4028583"
+      },
+      {
+        "url_type": "FULLTEKST",
+        "url": "https://revistas.unam.mx/index.php/rmac/article/view/86204/75616"
+      }
+    ],
+    "original_language": "en",
+    "summary": {
+      "en": "In the social release paradigm, one rat is restrained in a plastic tube and a cagemate can open the restrainer door to release the rat from outside. Researchers have debated whether release is empathetically motivated or better understood as operant behavior reinforced by social contact. One fundamental assumption underlying interpretations of door opening in terms of helping or empathy is that being restrained in the tube is aversive to the trapped rat. The current study aimed to shed light on this controversy by investigating restrainer entries and re-entries by the free and formerly restrained rats after release, respectively. We hypothesized that if being restrained is aversive, restrained rat would make fewer restrainer re-entries following release than the free rat due to its aversive learning history with the restrainer. The results show that the free and formerly restrained rats explored the restrainer equally often following release, thus supporting prior research suggesting that being trapped in the restrainer is not aversive. The observation that the two rats made more positive 50kHz vocalizations before than after release also lend some support to this suggestion."
+    },
+    "title": {
+      "en": "The social release paradigm: investigations of restrainer aversion."
+    },
+    "year_published": "2023",
+    "url": "https://api.cristin.no/v2/results/2165749",
+    "journal": {
+      "cristin_journal_id": "8DEB7074-9080-4CFA-B6BC-688D0C7066F7",
+      "name": "Revista Mexicana de Analisis de la Conducta",
+      "international_standard_numbers": [
+        {
+          "type": "printed",
+          "value": "0185-4534"
+        }
+      ],
+      "nvi_level": "1",
+      "external_url": "https://kanalregister.hkdir.no/publiseringskanaler/info/tidsskrift?pid=8DEB7074-9080-4CFA-B6BC-688D0C7066F7"
+    },
+    "volume": "49",
+    "issue": "1",
+    "pages": {
+      "from": "107",
+      "to": "131"
+    }
+  },
+  {
+    "category": {
+      "code": "PROGRAMPARTICIP",
+      "name": {
+        "en": "Programme participation"
+      }
+    },
+    "contributors": {
+      "url": "https://api.cristin.no/v2/results/2138275/contributors",
+      "count": 2,
+      "preview": [
+        {
+          "first_name": "Mette Espe",
+          "surname": "Myrmæl"
+        },
+        {
+          "first_name": "Magnus Helgheim",
+          "surname": "Blystad"
+        }
+      ]
+    },
+    "cristin_result_id": "2138275",
+    "nva_result_id": "0198cc4f6742-e101ba3d-9892-4d1a-ac63-102ec494d057",
+    "created": {
+      "date": "2025-08-21T11:06:52.000Z"
+    },
+    "last_modified": {
+      "date": "2025-10-13T15:36:28.000Z"
+    },
+    "date_published": "2023-03-20T00:00:00.000Z",
+    "links": [
+      {
+        "url_type": "ARKIV",
+        "url": "https://hdl.handle.net/11250/4540620"
+      }
+    ],
+    "original_language": "nb",
+    "title": {
+      "nb": "Psykt Interessant - Signalstoffer i hjernen - Hvordan påvirker det psyken vår?"
+    },
+    "year_published": "2023",
+    "url": "https://api.cristin.no/v2/results/2138275",
+    "media_type": {
+      "code": "INTERNETT",
+      "code_name": {
+        "en": "Internet"
+      }
+    },
+    "place": "Spotify"
+  }
+]

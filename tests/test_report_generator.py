@@ -1,5 +1,8 @@
 ﻿from report_generator import (
+    MANUAL_FIELD_KEYS,
+    build_auto_manual_fields,
     build_entries,
+    build_output_filename,
     build_template_context,
     classify_publication,
     extract_level,
@@ -7,7 +10,16 @@
 )
 
 
-def sample_record(category: str = "Journal article", year: int = 2024, level: int = 2) -> dict:
+def sample_record(
+    category: str = "Journal article",
+    year: int = 2024,
+    level: int | str = 2,
+    code: str | None = None,
+) -> dict:
+    category_payload = {"name": {"en": category}}
+    if code:
+        category_payload["code"] = code
+
     return {
         "contributors": {"preview": [{"surname": "Doe", "first_name": "Jane"}]},
         "year_published": year,
@@ -16,7 +28,7 @@ def sample_record(category: str = "Journal article", year: int = 2024, level: in
         "volume": "12",
         "pages": {"from": "10", "to": "20"},
         "links": [{"url_type": "DOI", "url": "https://doi.org/10.0000/example"}],
-        "category": {"name": {"en": category}},
+        "category": category_payload,
     }
 
 
@@ -53,6 +65,12 @@ def test_build_entries_filters_by_year():
     assert entries[0].year == "2024"
 
 
+def test_build_entries_skips_non_publication_categories():
+    record = sample_record(category="Interview", code="MEDIAINTERVIEW")
+    entries = build_entries([record], report_year=2024)
+    assert entries == []
+
+
 def test_build_template_context_populates_keys():
     records = [sample_record(category="Journal article", level=2)]
     entries = build_entries(records, report_year=2024)
@@ -62,9 +80,30 @@ def test_build_template_context_populates_keys():
         person_name="Jane Doe",
         institution_name="Test University",
         institution_name_secondary="",
+        manual_fields={"formidling_kronikker": "Kronikk i Aftenposten."},
     )
 
     assert context["report_year"] == "2024"
     assert context["person_name"] == "Jane Doe"
     assert "publisert_artikkel_niva2" in context
     assert "Doe, Jane" in str(context["publisert_artikkel_niva2"])
+    assert context["formidling_kronikker"] == "Kronikk i Aftenposten."
+    for key in MANUAL_FIELD_KEYS:
+        assert key in context
+
+
+def test_build_auto_manual_fields_maps_programme_participation():
+    record = {
+        "category": {"code": "PROGRAMPARTICIP", "name": {"en": "Programme participation"}},
+        "year_published": 2024,
+        "title": {"en": "Psykt Interessant!"},
+    }
+    fields = build_auto_manual_fields([record], report_year=2024)
+    assert "Psykt Interessant!" in fields["formidling_media"]
+
+
+def test_build_output_filename_uses_person_name():
+    filename = build_output_filename("Åse/Example", person_id=123, report_year=2024)
+    assert filename.startswith("Aarsrapport_2024_")
+    assert filename.endswith(".docx")
+    assert "/" not in filename

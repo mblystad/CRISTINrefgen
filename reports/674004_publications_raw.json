@@ -1,0 +1,3578 @@
+[
+  {
+    "category": {
+      "code": "OTHER",
+      "name": {
+        "en": "Other"
+      }
+    },
+    "contributors": {
+      "url": "https://api.cristin.no/v2/results/10277940/contributors",
+      "count": 1,
+      "preview": [
+        {
+          "first_name": "Magnus Helgheim",
+          "surname": "Blystad"
+        }
+      ]
+    },
+    "cristin_result_id": "10277940",
+    "nva_result_id": "019a253c47df-841a0fbf-b1c8-4a73-8544-fd46dda319d3",
+    "created": {
+      "date": "2025-10-27T10:34:58.000Z"
+    },
+    "last_modified": {
+      "date": "2025-10-27T10:36:11.000Z"
+    },
+    "date_published": "2025-09-04T00:00:00.000Z",
+    "links": [
+      {
+        "url_type": "DOI",
+        "url": "https://doi.org/https://www.linkedin.com/pulse/how-students-can-use-ai-ethically-support-learning-magnus-blystad-0pxpc/"
+      },
+      {
+        "url_type": "ARKIV",
+        "url": "https://hdl.handle.net/11250/5275529"
+      }
+    ],
+    "original_language": "nb",
+    "summary": {
+      "nb": "Disclaimer: I recieved an email about this topic from LinkedIn, but as I have been spending a lot of time, and work, on this topic, such as this Norwegian piece on using AI to support learning: https://www.forskersonen."
+    },
+    "title": {
+      "nb": "How students can use AI ethically to support their learning"
+    },
+    "year_published": "2025",
+    "url": "https://api.cristin.no/v2/results/10277940"
+  },
+  {
+    "category": {
+      "code": "ARTICLEFEATURE",
+      "name": {
+        "en": "Feature article"
+      }
+    },
+    "channel": {},
+    "contributors": {
+      "url": "https://api.cristin.no/v2/results/10277936/contributors",
+      "count": 1,
+      "preview": [
+        {
+          "first_name": "Magnus Helgheim",
+          "surname": "Blystad"
+        }
+      ]
+    },
+    "cristin_result_id": "10277936",
+    "nva_result_id": "019a2538f395-8e7f41fe-6e7c-484c-ac92-f7ab7dfc560c",
+    "created": {
+      "date": "2025-10-27T10:31:20.000Z"
+    },
+    "last_modified": {
+      "date": "2025-10-27T10:33:52.000Z"
+    },
+    "date_published": "2025-08-26T00:00:00.000Z",
+    "links": [
+      {
+        "url_type": "DOI",
+        "url": "https://doi.org/https://www.forskersonen.no/elever-kronikk-kunstig-intelligens/ki-kan-bli-en-personlig-laerer/2467799"
+      },
+      {
+        "url_type": "ARKIV",
+        "url": "https://hdl.handle.net/11250/5275525"
+      }
+    ],
+    "original_language": "nb",
+    "summary": {
+      "nb": "KRONIKK: Ungdomsskoleelever som bruker KI lærer mer – eller får i hvert fall bedre karakterer, skriver kronikkforfatteren."
+    },
+    "title": {
+      "nb": "KI  kan bli en personlig lærer"
+    },
+    "year_published": "2025",
+    "url": "https://api.cristin.no/v2/results/10277936",
+    "journal": {}
+  },
+  {
+    "category": {
+      "code": "READEROPINION",
+      "name": {
+        "en": "Reader opinion piece"
+      }
+    },
+    "channel": {
+      "title": "Tidsskrift for Norsk psykologforening (Psykologtidsskriftet)"
+    },
+    "contributors": {
+      "url": "https://api.cristin.no/v2/results/10277935/contributors",
+      "count": 1,
+      "preview": [
+        {
+          "first_name": "Magnus Helgheim",
+          "surname": "Blystad"
+        }
+      ]
+    },
+    "cristin_result_id": "10277935",
+    "nva_result_id": "019a25377a71-a9c7b962-99d5-4640-89bc-f5db9c8dc5b5",
+    "created": {
+      "date": "2025-10-27T10:29:44.000Z"
+    },
+    "last_modified": {
+      "date": "2026-01-07T09:31:56.000Z"
+    },
+    "date_published": "2025-09-11T00:00:00.000Z",
+    "links": [
+      {
+        "url_type": "DOI",
+        "url": "https://doi.org/https://www.psykologtidsskriftet.no/artikkel/2025as09ae-KI-far-ikke-darlig-samvittighet"
+      },
+      {
+        "url_type": "ARKIV",
+        "url": "https://hdl.handle.net/11250/5275523"
+      }
+    ],
+    "original_language": "nb",
+    "summary": {
+      "nb": "For å kunne utnytte mulighetsrommet i KI når det gjelder psykisk helse, må vi ha KI-ferdigheter for å kjempe mot utfordringene."
+    },
+    "title": {
+      "nb": "KI får ikke dårlig samvittighet"
+    },
+    "year_published": "2025",
+    "url": "https://api.cristin.no/v2/results/10277935",
+    "journal": {
+      "cristin_journal_id": "9AA97551-C498-4335-A436-1612A6D9A322",
+      "name": "Tidsskrift for Norsk psykologforening (Psykologtidsskriftet)",
+      "international_standard_numbers": [
+        {
+          "type": "printed",
+          "value": "0332-6470"
+        },
+        {
+          "type": "electronic",
+          "value": "2703-9528"
+        }
+      ],
+      "nvi_level": "1",
+      "external_url": "https://kanalregister.hkdir.no/publiseringskanaler/info/tidsskrift?pid=9AA97551-C498-4335-A436-1612A6D9A322"
+    }
+  },
+  {
+    "category": {
+      "code": "ACADEMICLECTURE",
+      "name": {
+        "en": "Academic lecture"
+      }
+    },
+    "contributors": {
+      "url": "https://api.cristin.no/v2/results/10277934/contributors",
+      "count": 1,
+      "preview": [
+        {
+          "first_name": "Magnus Helgheim",
+          "surname": "Blystad"
+        }
+      ]
+    },
+    "cristin_result_id": "10277934",
+    "nva_result_id": "019a253464cf-5245a592-13b1-4445-b613-718720de00ab",
+    "created": {
+      "date": "2025-10-27T10:26:22.000Z"
+    },
+    "last_modified": {
+      "date": "2025-10-27T10:28:58.000Z"
+    },
+    "date_published": "2025-05-09T00:00:00.000Z",
+    "links": [
+      {
+        "url_type": "ARKIV",
+        "url": "https://hdl.handle.net/11250/5275519"
+      }
+    ],
+    "original_language": "nb",
+    "title": {
+      "nb": "Sanser og nevral funksjon  - Fra input til atferd"
+    },
+    "year_published": "2025",
+    "url": "https://api.cristin.no/v2/results/10277934",
+    "event": {
+      "name": "NAFO Seminaret 2025",
+      "location": "Storefjell",
+      "date_from": "2025-05-08T22:00:00.000Z",
+      "date_to": "2025-05-08T22:00:00.000Z",
+      "arranged_by": {
+        "name": "Norsk Atferdsanalytisk Forening"
+      }
+    }
+  },
+  {
+    "category": {
+      "code": "OTHERPRES",
+      "name": {
+        "en": "Other presentation"
+      }
+    },
+    "contributors": {
+      "url": "https://api.cristin.no/v2/results/10277929/contributors",
+      "count": 4,
+      "preview": [
+        {
+          "first_name": "Magnus Helgheim",
+          "surname": "Blystad"
+        },
+        {
+          "first_name": "Pedram",
+          "surname": "Sadeghi"
+        },
+        {
+          "first_name": "Espen A.",
+          "surname": "Sjøberg"
+        },
+        {
+          "first_name": "Gunnar",
+          "surname": "Ree"
+        }
+      ]
+    },
+    "cristin_result_id": "10277929",
+    "nva_result_id": "019a252d0410-3501c433-c9e9-415b-acef-c5f5e5d5d432",
+    "created": {
+      "date": "2025-10-27T10:18:18.000Z"
+    },
+    "last_modified": {
+      "date": "2025-10-27T10:26:18.000Z"
+    },
+    "date_published": "2025-05-09T00:00:00.000Z",
+    "links": [
+      {
+        "url_type": "ARKIV",
+        "url": "https://hdl.handle.net/11250/5275517"
+      }
+    ],
+    "original_language": "nb",
+    "summary": {
+      "nb": "Symposiet viser hvordan nevrovitenskap, atferd og evolusjon er tett sammenvevd, og hvordan biologiske prosesser formidler atferd. Med utgangspunkt i hjernens rolle i å bearbeide stimuli og koble biologiske mekanismer til atferd, belyses hvordan disse innsiktene kan anvendes til å forstå læring, tilpasning og effektive atferdsintervensjoner. Et evolusjonært perspektiv gir videre innsikt i hvordan hjernen og atferd er formet over tid gjennom naturlig seleksjon, og hvordan dette danner grunnlaget for både biologisk og atferdsmessig utvikling. Gjennom en helhetlig tilnærming knyttes perspektivene sammen i siste innlegg, og det vises hvordan denne integrasjonen gir en dypere forståelse av komplekse atferdsprosesser som kan anvendes både i forskning og praksis."
+    },
+    "title": {
+      "nb": "Hjernen og atferd - Atferds­analyse, nevrovitenskap og evolusjon"
+    },
+    "year_published": "2025",
+    "url": "https://api.cristin.no/v2/results/10277929"
+  },
+  {
+    "category": {
+      "code": "POSTER",
+      "name": {
+        "en": "Poster"
+      }
+    },
+    "contributors": {
+      "url": "https://api.cristin.no/v2/results/10277923/contributors",
+      "count": 4,
+      "preview": [
+        {
+          "first_name": "Magnus Helgheim",
+          "surname": "Blystad"
+        },
+        {
+          "first_name": "Peder Mortvedt",
+          "surname": "Isager"
+        },
+        {
+          "first_name": "Ellie V. D.",
+          "surname": "Bastos"
+        },
+        {
+          "first_name": "Johanna Katarina Blomster",
+          "surname": "Lyshol"
+        }
+      ]
+    },
+    "cristin_result_id": "10277923",
+    "nva_result_id": "019a252584b8-e143371e-a9d8-4961-aae9-ffd6587f63c8",
+    "created": {
+      "date": "2025-10-27T10:10:07.000Z"
+    },
+    "last_modified": {
+      "date": "2025-10-27T10:18:03.000Z"
+    },
+    "links": [
+      {
+        "url_type": "ARKIV",
+        "url": "https://hdl.handle.net/11250/5275511"
+      }
+    ],
+    "original_language": "nb",
+    "summary": {
+      "nb": "Preliminary quantitative and qualitative data from a project on empathy understanding amongst Norwegian students in nursing and psychology."
+    },
+    "title": {
+      "nb": "Empathy understanding amongst psychology and nursing students"
+    },
+    "year_published": "2025",
+    "url": "https://api.cristin.no/v2/results/10277923",
+    "event": {
+      "name": "Norwegian Conference on Social, Community, and Work Psychology",
+      "location": "Tromsø",
+      "date_from": "2025-10-15T22:00:00.000Z",
+      "date_to": "2025-10-16T22:00:00.000Z",
+      "arranged_by": {
+        "name": "UiT"
+      }
+    }
+  },
+  {
+    "category": {
+      "code": "POSTER",
+      "name": {
+        "en": "Poster"
+      }
+    },
+    "contributors": {
+      "url": "https://api.cristin.no/v2/results/2379907/contributors",
+      "count": 4,
+      "preview": [
+        {
+          "first_name": "Magnus Helgheim",
+          "surname": "Blystad"
+        },
+        {
+          "first_name": "Rafael Valdece Sousa",
+          "surname": "Bastos"
+        },
+        {
+          "first_name": "Peder Mortvedt",
+          "surname": "Isager"
+        },
+        {
+          "first_name": "Johanna Katarina Blomster",
+          "surname": "Lyshol"
+        }
+      ]
+    },
+    "cristin_result_id": "2379907",
+    "nva_result_id": "0198cc4fc5cd-3581da0f-7f98-4045-87b7-5f1f537c3328",
+    "created": {
+      "date": "2025-08-21T11:07:16.000Z"
+    },
+    "last_modified": {
+      "date": "2025-10-13T16:09:41.000Z"
+    },
+    "links": [
+      {
+        "url_type": "ARKIV",
+        "url": "https://hdl.handle.net/11250/4598831"
+      }
+    ],
+    "original_language": "nb",
+    "title": {
+      "nb": "Hva er empati for deg? Forståelse av empatibegrepet blant studenter innen psykologi og sykepleie bachelorprogram"
+    },
+    "year_published": "2025",
+    "url": "https://api.cristin.no/v2/results/2379907",
+    "event": {
+      "name": "NAFO-seminaret 2025 ",
+      "location": "Storefjell, Norge",
+      "date_from": "2025-05-09T00:00:00.000Z",
+      "date_to": "2025-05-09T00:00:00.000Z",
+      "arranged_by": {
+        "name": "Norsk Atferdsanalytisk Forening"
+      }
+    }
+  },
+  {
+    "category": {
+      "code": "ARTICLE",
+      "name": {
+        "en": "Academic article"
+      }
+    },
+    "channel": {
+      "title": "Journal of Social Psychology"
+    },
+    "contributors": {
+      "url": "https://api.cristin.no/v2/results/2372752/contributors",
+      "count": 4,
+      "preview": [
+        {
+          "first_name": "Johanna Katarina Blomster",
+          "surname": "Lyshol"
+        },
+        {
+          "first_name": "Rafael Valdece Sousa",
+          "surname": "Bastos"
+        },
+        {
+          "first_name": "Peder Mortvedt",
+          "surname": "Isager"
+        },
+        {
+          "first_name": "Magnus Helgheim",
+          "surname": "Blystad"
+        }
+      ]
+    },
+    "cristin_result_id": "2372752",
+    "nva_result_id": "0198cc42774a-f060fb1d-9206-47f3-bc08-629385620820",
+    "created": {
+      "date": "2025-08-21T10:52:44.000Z"
+    },
+    "import_sources": [
+      {
+        "source_name": "SCOPUS",
+        "source_reference_id": "2-s2.0-105002576245"
+      }
+    ],
+    "last_modified": {
+      "date": "2026-01-07T13:18:51.000Z"
+    },
+    "links": [
+      {
+        "url_type": "DOI",
+        "url": "https://doi.org/10.1080/00224545.2025.2482014"
+      },
+      {
+        "url_type": "ARKIV",
+        "url": "https://hdl.handle.net/11250/4509166"
+      }
+    ],
+    "original_language": "en",
+    "title": {
+      "en": "What is empathy for laypeople?–A replication study of Hall, Schwartz, and Duong (2021)"
+    },
+    "year_published": "2025",
+    "url": "https://api.cristin.no/v2/results/2372752",
+    "journal": {
+      "cristin_journal_id": "493C41BC-207F-4EE8-95DE-DC290DF354EE",
+      "name": "Journal of Social Psychology",
+      "international_standard_numbers": [
+        {
+          "type": "printed",
+          "value": "0022-4545"
+        },
+        {
+          "type": "electronic",
+          "value": "1940-1183"
+        }
+      ],
+      "nvi_level": "1",
+      "external_url": "https://kanalregister.hkdir.no/publiseringskanaler/info/tidsskrift?pid=493C41BC-207F-4EE8-95DE-DC290DF354EE"
+    }
+  },
+  {
+    "category": {
+      "code": "ARTICLE",
+      "name": {
+        "en": "Academic article"
+      }
+    },
+    "channel": {
+      "title": "Tidsskrift for Norsk psykologforening (Psykologtidsskriftet)"
+    },
+    "contributors": {
+      "url": "https://api.cristin.no/v2/results/2219967/contributors",
+      "count": 2,
+      "preview": [
+        {
+          "first_name": "Magnus Helgheim",
+          "surname": "Blystad"
+        },
+        {
+          "first_name": "Simen Christensen",
+          "surname": "Grøgaard"
+        }
+      ]
+    },
+    "cristin_result_id": "2219967",
+    "nva_result_id": "0198cc7728aa-d62b058e-13b7-46d6-8a99-8e58338ca6b5",
+    "created": {
+      "date": "2025-08-21T11:50:18.000Z"
+    },
+    "last_modified": {
+      "date": "2025-10-13T19:13:37.000Z"
+    },
+    "links": [
+      {
+        "url_type": "DOI",
+        "url": "https://doi.org/10.52734/ERKP8472"
+      },
+      {
+        "url_type": "ARKIV",
+        "url": "https://hdl.handle.net/11250/4934003"
+      },
+      {
+        "url_type": "FULLTEKST",
+        "url": "https://www.nb.no/items/cc26ff8b292406b6592cac7343da6baa?page=33&searchText=Empatiens%20mange%20ansikter:%20fenomenologisk%20og%20positivistisk%20empati"
+      }
+    ],
+    "original_language": "nb",
+    "summary": {
+      "nb": "Understanding of the concept of empathy is often subject to change. The manifold conceptualisations, as well as the terminological ambiguities regarding the concept, are observed by studying interdisciplinary, overlapping and even contrasting perspectives of the phenomena across public discourse and academic literature. In this article we do not attempt to reduce the concept of empathy to a single entity, but rather strive to illuminate the many approaches to it. We identify a categorisation of the literature on empathy into two overarching approaches and propose two prototypical epistemological positions that might describe the definitional variations in understanding and applying it, namely a phenomenological or a positivist model underlying understandings of the concept. These two categories encompass wide subsets of traditions and perspectives which we summarise in a nomological network. Such a framing enables us to document the basis for the concept of empathy within a diversity of disciplinary traditions."
+    },
+    "title": {
+      "nb": "Empatiens mange ansikter: fenomenologisk og positivistisk empati"
+    },
+    "year_published": "2024",
+    "url": "https://api.cristin.no/v2/results/2219967",
+    "journal": {
+      "cristin_journal_id": "9AA97551-C498-4335-A436-1612A6D9A322",
+      "name": "Tidsskrift for Norsk psykologforening (Psykologtidsskriftet)",
+      "international_standard_numbers": [
+        {
+          "type": "printed",
+          "value": "0332-6470"
+        },
+        {
+          "type": "electronic",
+          "value": "2703-9528"
+        }
+      ],
+      "nvi_level": "1",
+      "external_url": "https://kanalregister.hkdir.no/publiseringskanaler/info/tidsskrift?pid=9AA97551-C498-4335-A436-1612A6D9A322"
+    },
+    "volume": "61",
+    "issue": "1",
+    "pages": {
+      "from": "32",
+      "to": "43"
+    }
+  },
+  {
+    "category": {
+      "code": "LECTURE",
+      "name": {
+        "en": "Lecture"
+      }
+    },
+    "contributors": {
+      "url": "https://api.cristin.no/v2/results/2312136/contributors",
+      "count": 1,
+      "preview": [
+        {
+          "first_name": "Magnus Helgheim",
+          "surname": "Blystad"
+        }
+      ]
+    },
+    "cristin_result_id": "2312136",
+    "nva_result_id": "0198cc6870af-0505c8f6-c451-4171-a773-2be0fda960ed",
+    "created": {
+      "date": "2025-08-21T11:34:13.000Z"
+    },
+    "last_modified": {
+      "date": "2025-10-12T04:56:34.000Z"
+    },
+    "links": [
+      {
+        "url_type": "ARKIV",
+        "url": "https://hdl.handle.net/11250/3727874"
+      }
+    ],
+    "original_language": "nb",
+    "title": {
+      "nb": "Sosial Nevrovitenskap - Rotter, grupper og empati"
+    },
+    "year_published": "2024",
+    "url": "https://api.cristin.no/v2/results/2312136",
+    "event": {
+      "name": "Gjesteforelesning i Psykologi ved Oslo Katedralskole",
+      "location": "Oslo",
+      "date_from": "2024-10-15T00:00:00.000Z",
+      "date_to": "2024-10-15T00:00:00.000Z",
+      "arranged_by": {
+        "name": "Oslo Katedralskole"
+      }
+    }
+  },
+  {
+    "category": {
+      "code": "MEDIAINTERVIEW",
+      "name": {
+        "en": "Interview"
+      }
+    },
+    "contributors": {
+      "url": "https://api.cristin.no/v2/results/2318997/contributors",
+      "count": 3,
+      "preview": [
+        {
+          "first_name": "Synnøve",
+          "surname": "Fonneland"
+        },
+        {
+          "first_name": "Jo Fosby",
+          "surname": "Jaavall"
+        },
+        {
+          "first_name": "Magnus Helgheim",
+          "surname": "Blystad"
+        }
+      ]
+    },
+    "cristin_result_id": "2318997",
+    "nva_result_id": "0198cc613274-1e89e953-4ce2-4968-9aad-8a9c7bd3f184",
+    "created": {
+      "date": "2025-08-21T11:26:18.000Z"
+    },
+    "last_modified": {
+      "date": "2025-10-14T02:18:47.000Z"
+    },
+    "links": [
+      {
+        "url_type": "ARKIV",
+        "url": "https://hdl.handle.net/11250/5070561"
+      }
+    ],
+    "original_language": "nb",
+    "title": {
+      "nb": "De vil gjøre det lettere å lære om hjernen"
+    },
+    "year_published": "2024",
+    "url": "https://api.cristin.no/v2/results/2318997",
+    "media_type": {
+      "code": "TIDSSKRIFT",
+      "code_name": {
+        "en": "Journal"
+      }
+    },
+    "place": "Psykologisk.no"
+  },
+  {
+    "category": {
+      "code": "MEDIAINTERVIEW",
+      "name": {
+        "en": "Interview"
+      }
+    },
+    "contributors": {
+      "url": "https://api.cristin.no/v2/results/2345440/contributors",
+      "count": 2,
+      "preview": [
+        {
+          "first_name": "Magnus Helgheim",
+          "surname": "Blystad"
+        },
+        {
+          "first_name": "Erlend",
+          "surname": "Frafjord"
+        }
+      ]
+    },
+    "cristin_result_id": "2345440",
+    "nva_result_id": "0198cc5541c7-1f344c2e-1570-4354-8abb-101d9c75072b",
+    "created": {
+      "date": "2025-08-21T11:13:16.000Z"
+    },
+    "last_modified": {
+      "date": "2025-10-13T18:35:42.000Z"
+    },
+    "date_published": "2024-08-01T00:00:00.000Z",
+    "links": [
+      {
+        "url_type": "ARKIV",
+        "url": "https://hdl.handle.net/11250/4864210"
+      }
+    ],
+    "original_language": "nb",
+    "title": {
+      "nb": "Norges farligste - tre forvaringsdømte forteller (Bok)"
+    },
+    "year_published": "2024",
+    "url": "https://api.cristin.no/v2/results/2345440",
+    "media_type": {
+      "code": "TIDSSKRIFT",
+      "code_name": {
+        "en": "Journal"
+      }
+    },
+    "place": "Bok utgivelse"
+  },
+  {
+    "category": {
+      "code": "TEXTBOOK",
+      "name": {
+        "en": "Textbook"
+      }
+    },
+    "channel": {
+      "title": "Fagbokforlaget"
+    },
+    "contributors": {
+      "url": "https://api.cristin.no/v2/results/2286632/contributors",
+      "count": 2,
+      "preview": [
+        {
+          "first_name": "Magnus Helgheim",
+          "surname": "Blystad"
+        },
+        {
+          "first_name": "Jo Fosby",
+          "surname": "Jaavall"
+        }
+      ]
+    },
+    "cristin_result_id": "2286632",
+    "nva_result_id": "0198cc482d5d-02b3104e-23d5-4191-becb-a3110ce7e344",
+    "created": {
+      "date": "2025-08-21T10:58:59.000Z"
+    },
+    "last_modified": {
+      "date": "2025-10-14T03:30:25.000Z"
+    },
+    "links": [
+      {
+        "url_type": "ARKIV",
+        "url": "https://hdl.handle.net/11250/5205124"
+      }
+    ],
+    "original_language": "nb",
+    "summary": {
+      "nb": "Nevrobiologi er studiet av kroppens nervesystem, inkludert hjernen og ryggmargen, og hvordan dette fungerer og kommuniserer. Nervesystemet former atferd og kognitive prosesser og bestemmer på mange måter hvem du er og hva du gjør.\r\nGrunnleggende nevrobiologi gir en kortfattet, lett tilgjengelig og rikt illustrert innføring i denne disiplinen. Forfatterne viser på en enkel og pedagogisk måte hvordan atomer og molekyler danner basis for nervecellene. Nervecellene sender signaler, danner nettverk og ligger til grunn for blant annet tenkning, sansning og følelser.\r\nLeseren trenger ingen tidligere kunnskap om biologi, kjemi eller psykologi for å forstå innholdet i denne boken. Målet er nettopp å gjøre stoffet tilgjengelig og eventuelt fungere som et springbrett til mer avansert litteratur. Enten du er ny student innen psykologi, vernepleie eller andre felt der kunnskap om nervesystemet og atferd er verdifullt, eller bare er nysgjerrig på hvordan nervesystemet fungerer, vil denne boken være nyttig."
+    },
+    "title": {
+      "nb": "Grunnleggende nevrobiologi: En introduksjon til biologisk psykologi"
+    },
+    "year_published": "2024",
+    "url": "https://api.cristin.no/v2/results/2286632",
+    "number_of_pages": "192",
+    "publisher": {
+      "name": "Fagbokforlaget",
+      "url": "https://kanalregister.hkdir.no/publiseringskanaler/info/forlag?pid=D0CC505A-1A53-4AA1-B6C9-D886FE2E6351",
+      "nvi_level": "1"
+    },
+    "international_standard_numbers": [
+      {
+        "type": "printed",
+        "value": "9788245047783"
+      }
+    ]
+  },
+  {
+    "category": {
+      "code": "PROGRAMPARTICIP",
+      "name": {
+        "en": "Programme participation"
+      }
+    },
+    "contributors": {
+      "url": "https://api.cristin.no/v2/results/2124127/contributors",
+      "count": 2,
+      "preview": [
+        {
+          "first_name": "Mette Espe",
+          "surname": "Myrmæl"
+        },
+        {
+          "first_name": "Magnus Helgheim",
+          "surname": "Blystad"
+        }
+      ]
+    },
+    "cristin_result_id": "2124127",
+    "nva_result_id": "0198cc676d8b-3538046d-376a-4bc1-a362-d1a06050a49d",
+    "created": {
+      "date": "2025-08-21T11:33:07.000Z"
+    },
+    "last_modified": {
+      "date": "2025-10-13T18:26:15.000Z"
+    },
+    "date_published": "2023-02-06T00:00:00.000Z",
+    "links": [
+      {
+        "url_type": "ARKIV",
+        "url": "https://hdl.handle.net/11250/4846830"
+      }
+    ],
+    "original_language": "nb",
+    "title": {
+      "nb": "Psykt Interessant! - Den fascinerende hjernen"
+    },
+    "year_published": "2023",
+    "url": "https://api.cristin.no/v2/results/2124127",
+    "media_type": {
+      "code": "INTERNETT",
+      "code_name": {
+        "en": "Internet"
+      }
+    },
+    "place": "Spotify"
+  },
+  {
+    "category": {
+      "code": "ACADEMICLECTURE",
+      "name": {
+        "en": "Academic lecture"
+      }
+    },
+    "contributors": {
+      "url": "https://api.cristin.no/v2/results/2144671/contributors",
+      "count": 4,
+      "preview": [
+        {
+          "first_name": "Johanna Katarina Blomster",
+          "surname": "Lyshol"
+        },
+        {
+          "first_name": "Magnus Helgheim",
+          "surname": "Blystad"
+        },
+        {
+          "first_name": "Peder Mortvedt",
+          "surname": "Isager"
+        },
+        {
+          "first_name": "Rafael",
+          "surname": "Bastos"
+        }
+      ]
+    },
+    "cristin_result_id": "2144671",
+    "nva_result_id": "0198cc5f903e-3adcf01a-72ff-4d02-893b-ff3e5663ebac",
+    "created": {
+      "date": "2025-08-21T11:24:31.000Z"
+    },
+    "last_modified": {
+      "date": "2025-10-11T17:27:47.000Z"
+    },
+    "links": [
+      {
+        "url_type": "ARKIV",
+        "url": "https://hdl.handle.net/11250/3464996"
+      }
+    ],
+    "original_language": "en",
+    "title": {
+      "en": "Empathy among laypeople - Replication of Hall, Schwartz, & Duong, 2021"
+    },
+    "year_published": "2023",
+    "url": "https://api.cristin.no/v2/results/2144671",
+    "event": {
+      "name": "Norwegian Social and Community Psychology Conference 2023",
+      "location": "Trondheim",
+      "date_from": "2023-04-27T00:00:00.000Z",
+      "date_to": "2023-04-28T00:00:00.000Z",
+      "arranged_by": {
+        "name": "NTNU"
+      }
+    }
+  },
+  {
+    "category": {
+      "code": "ARTICLE",
+      "name": {
+        "en": "Academic article"
+      }
+    },
+    "channel": {
+      "title": "Revista Mexicana de Analisis de la Conducta"
+    },
+    "contributors": {
+      "url": "https://api.cristin.no/v2/results/2165749/contributors",
+      "count": 4,
+      "preview": [
+        {
+          "first_name": "Magnus Helgheim",
+          "surname": "Blystad"
+        },
+        {
+          "first_name": "Patrick Asare",
+          "surname": "Hansen"
+        },
+        {
+          "first_name": "Danielle",
+          "surname": "Andersen"
+        },
+        {
+          "first_name": "Espen Borgå",
+          "surname": "Johansen"
+        }
+      ]
+    },
+    "cristin_result_id": "2165749",
+    "nva_result_id": "0198cc536573-db208657-74a8-429b-a579-50ae4d223904",
+    "created": {
+      "date": "2025-08-21T11:11:14.000Z"
+    },
+    "import_sources": [
+      {
+        "source_name": "SCOPUS",
+        "source_reference_id": "2-s2.0-85216832814"
+      }
+    ],
+    "last_modified": {
+      "date": "2025-10-13T10:20:39.000Z"
+    },
+    "links": [
+      {
+        "url_type": "DOI",
+        "url": "https://doi.org/10.5514/rmac.v49.i1.86204"
+      },
+      {
+        "url_type": "ARKIV",
+        "url": "https://hdl.handle.net/11250/4028583"
+      },
+      {
+        "url_type": "FULLTEKST",
+        "url": "https://revistas.unam.mx/index.php/rmac/article/view/86204/75616"
+      }
+    ],
+    "original_language": "en",
+    "summary": {
+      "en": "In the social release paradigm, one rat is restrained in a plastic tube and a cagemate can open the restrainer door to release the rat from outside. Researchers have debated whether release is empathetically motivated or better understood as operant behavior reinforced by social contact. One fundamental assumption underlying interpretations of door opening in terms of helping or empathy is that being restrained in the tube is aversive to the trapped rat. The current study aimed to shed light on this controversy by investigating restrainer entries and re-entries by the free and formerly restrained rats after release, respectively. We hypothesized that if being restrained is aversive, restrained rat would make fewer restrainer re-entries following release than the free rat due to its aversive learning history with the restrainer. The results show that the free and formerly restrained rats explored the restrainer equally often following release, thus supporting prior research suggesting that being trapped in the restrainer is not aversive. The observation that the two rats made more positive 50kHz vocalizations before than after release also lend some support to this suggestion."
+    },
+    "title": {
+      "en": "The social release paradigm: investigations of restrainer aversion."
+    },
+    "year_published": "2023",
+    "url": "https://api.cristin.no/v2/results/2165749",
+    "journal": {
+      "cristin_journal_id": "8DEB7074-9080-4CFA-B6BC-688D0C7066F7",
+      "name": "Revista Mexicana de Analisis de la Conducta",
+      "international_standard_numbers": [
+        {
+          "type": "printed",
+          "value": "0185-4534"
+        }
+      ],
+      "nvi_level": "1",
+      "external_url": "https://kanalregister.hkdir.no/publiseringskanaler/info/tidsskrift?pid=8DEB7074-9080-4CFA-B6BC-688D0C7066F7"
+    },
+    "volume": "49",
+    "issue": "1",
+    "pages": {
+      "from": "107",
+      "to": "131"
+    }
+  },
+  {
+    "category": {
+      "code": "PROGRAMPARTICIP",
+      "name": {
+        "en": "Programme participation"
+      }
+    },
+    "contributors": {
+      "url": "https://api.cristin.no/v2/results/2138275/contributors",
+      "count": 2,
+      "preview": [
+        {
+          "first_name": "Mette Espe",
+          "surname": "Myrmæl"
+        },
+        {
+          "first_name": "Magnus Helgheim",
+          "surname": "Blystad"
+        }
+      ]
+    },
+    "cristin_result_id": "2138275",
+    "nva_result_id": "0198cc4f6742-e101ba3d-9892-4d1a-ac63-102ec494d057",
+    "created": {
+      "date": "2025-08-21T11:06:52.000Z"
+    },
+    "last_modified": {
+      "date": "2025-10-13T15:36:28.000Z"
+    },
+    "date_published": "2023-03-20T00:00:00.000Z",
+    "links": [
+      {
+        "url_type": "ARKIV",
+        "url": "https://hdl.handle.net/11250/4540620"
+      }
+    ],
+    "original_language": "nb",
+    "title": {
+      "nb": "Psykt Interessant - Signalstoffer i hjernen - Hvordan påvirker det psyken vår?"
+    },
+    "year_published": "2023",
+    "url": "https://api.cristin.no/v2/results/2138275",
+    "media_type": {
+      "code": "INTERNETT",
+      "code_name": {
+        "en": "Internet"
+      }
+    },
+    "place": "Spotify"
+  },
+  {
+    "category": {
+      "code": "ACADEMICREVIEW",
+      "name": {
+        "en": "Academic literature review"
+      }
+    },
+    "channel": {
+      "title": "Behavior Analysis: Research and Practice"
+    },
+    "contributors": {
+      "url": "https://api.cristin.no/v2/results/2007693/contributors",
+      "count": 2,
+      "preview": [
+        {
+          "first_name": "Magnus Helgheim",
+          "surname": "Blystad"
+        },
+        {
+          "first_name": "Steffen",
+          "surname": "Hansen"
+        }
+      ]
+    },
+    "cristin_result_id": "2007693",
+    "nva_result_id": "0198cc91bcaa-2fada09b-d056-438b-b5be-172b07ca5668",
+    "created": {
+      "date": "2025-08-21T12:19:19.000Z"
+    },
+    "last_modified": {
+      "date": "2025-10-11T09:50:33.000Z"
+    },
+    "date_published": "2022-02-24T00:00:00.000Z",
+    "links": [
+      {
+        "url_type": "DOI",
+        "url": "https://doi.org/10.1037/bar0000242"
+      },
+      {
+        "url_type": "ARKIV",
+        "url": "https://hdl.handle.net/11250/3289253"
+      }
+    ],
+    "original_language": "en",
+    "title": {
+      "en": "Empathy or not empathy, that’s the question—A pragmatic behavior analytical approach"
+    },
+    "year_published": "2022",
+    "url": "https://api.cristin.no/v2/results/2007693",
+    "journal": {
+      "cristin_journal_id": "6302F636-F5BB-4647-AEFC-178A4AB89C8D",
+      "name": "Behavior Analysis: Research and Practice",
+      "international_standard_numbers": [
+        {
+          "type": "electronic",
+          "value": "2372-9414"
+        }
+      ],
+      "nvi_level": "1",
+      "external_url": "https://kanalregister.hkdir.no/publiseringskanaler/info/tidsskrift?pid=6302F636-F5BB-4647-AEFC-178A4AB89C8D"
+    },
+    "volume": "22",
+    "issue": "2",
+    "pages": {
+      "from": "224",
+      "to": "237"
+    }
+  },
+  {
+    "category": {
+      "code": "ARTICLEFEATURE",
+      "name": {
+        "en": "Feature article"
+      }
+    },
+    "channel": {},
+    "contributors": {
+      "url": "https://api.cristin.no/v2/results/2044185/contributors",
+      "count": 1,
+      "preview": [
+        {
+          "first_name": "Magnus Helgheim",
+          "surname": "Blystad"
+        }
+      ]
+    },
+    "cristin_result_id": "2044185",
+    "nva_result_id": "0198cc83f2fe-57ac9e5d-ca8a-4245-abcf-83532ef4dcfa",
+    "created": {
+      "date": "2025-08-21T12:04:16.000Z"
+    },
+    "last_modified": {
+      "date": "2025-10-12T19:52:06.000Z"
+    },
+    "links": [
+      {
+        "url_type": "ARKIV",
+        "url": "https://hdl.handle.net/11250/3874568"
+      },
+      {
+        "url_type": "FULLTEKST",
+        "url": "https://forskersonen.no/meninger-populaervitenskap-psykologi/er-empati-noe-vi-har-eller-noe-vi-gjor/2062504"
+      }
+    ],
+    "original_language": "nb",
+    "title": {
+      "nb": "Er empati noe vi har eller noe vi gjør?"
+    },
+    "year_published": "2022",
+    "url": "https://api.cristin.no/v2/results/2044185",
+    "journal": {}
+  },
+  {
+    "category": {
+      "code": "PROGRAMPARTICIP",
+      "name": {
+        "en": "Programme participation"
+      }
+    },
+    "contributors": {
+      "url": "https://api.cristin.no/v2/results/2018795/contributors",
+      "count": 2,
+      "preview": [
+        {
+          "first_name": "Magnus Helgheim",
+          "surname": "Blystad"
+        },
+        {
+          "first_name": "Mette Espe",
+          "surname": "Myrmæl"
+        }
+      ]
+    },
+    "cristin_result_id": "2018795",
+    "nva_result_id": "0198cc40da7b-8bd5608f-f85b-462e-bb68-0dacea97a9f1",
+    "created": {
+      "date": "2025-08-21T10:50:59.000Z"
+    },
+    "last_modified": {
+      "date": "2025-10-11T11:07:23.000Z"
+    },
+    "date_published": "2022-04-25T00:00:00.000Z",
+    "links": [
+      {
+        "url_type": "ARKIV",
+        "url": "https://hdl.handle.net/11250/3319159"
+      }
+    ],
+    "original_language": "nb",
+    "title": {
+      "nb": "Psykt Interessant: Psykologi - En vitenskap?"
+    },
+    "year_published": "2022",
+    "url": "https://api.cristin.no/v2/results/2018795",
+    "media_type": {
+      "code": "INTERNETT",
+      "code_name": {
+        "en": "Internet"
+      }
+    },
+    "place": "Spotify"
+  },
+  {
+    "category": {
+      "code": "ARTICLE",
+      "name": {
+        "en": "Academic article"
+      }
+    },
+    "channel": {
+      "title": "Biology Letters"
+    },
+    "contributors": {
+      "url": "https://api.cristin.no/v2/results/1975789/contributors",
+      "count": 1,
+      "preview": [
+        {
+          "first_name": "Magnus Helgheim",
+          "surname": "Blystad"
+        }
+      ]
+    },
+    "cristin_result_id": "1975789",
+    "nva_result_id": "0198cc598b58-ae1081af-5c7a-4203-b0f7-48fd022f7321",
+    "created": {
+      "date": "2025-08-21T11:17:57.000Z"
+    },
+    "import_sources": [
+      {
+        "source_name": "SCOPUS",
+        "source_reference_id": "2-s2.0-85121993900"
+      }
+    ],
+    "last_modified": {
+      "date": "2025-10-13T14:04:27.000Z"
+    },
+    "links": [
+      {
+        "url_type": "DOI",
+        "url": "https://doi.org/10.1098/rsbl.2021.0355"
+      },
+      {
+        "url_type": "ARKIV",
+        "url": "https://hdl.handle.net/11250/4377905"
+      }
+    ],
+    "original_language": "en",
+    "title": {
+      "en": "An opinion on the interpretation of social release in rats"
+    },
+    "year_published": "2021",
+    "url": "https://api.cristin.no/v2/results/1975789",
+    "journal": {
+      "cristin_journal_id": "B921759F-FCD7-4EF5-940A-DF954A4A1ADC",
+      "name": "Biology Letters",
+      "international_standard_numbers": [
+        {
+          "type": "printed",
+          "value": "1744-9561"
+        },
+        {
+          "type": "electronic",
+          "value": "1744-957X"
+        }
+      ],
+      "nvi_level": "2",
+      "external_url": "https://kanalregister.hkdir.no/publiseringskanaler/info/tidsskrift?pid=B921759F-FCD7-4EF5-940A-DF954A4A1ADC"
+    },
+    "volume": "17",
+    "issue": "11",
+    "pages": {
+      "from": "20210355",
+      "to": "20210355"
+    }
+  },
+  {
+    "category": {
+      "code": "DOCTORDISSERTAT",
+      "name": {
+        "en": "Doctoral dissertation"
+      }
+    },
+    "channel": {
+      "title": "OsloMet - storbyuniversitetet"
+    },
+    "contributors": {
+      "url": "https://api.cristin.no/v2/results/1916723/contributors",
+      "count": 3,
+      "preview": [
+        {
+          "first_name": "Magnus Helgheim",
+          "surname": "Blystad"
+        },
+        {
+          "first_name": "Espen Borgå",
+          "surname": "Johansen"
+        },
+        {
+          "first_name": "Per",
+          "surname": "Holth"
+        }
+      ]
+    },
+    "cristin_result_id": "1916723",
+    "nva_result_id": "0198cc3c4c42-ea4455cc-6250-4ad0-b99f-63389ccf7e78",
+    "created": {
+      "date": "2025-08-21T10:46:00.000Z"
+    },
+    "last_modified": {
+      "date": "2025-08-29T10:59:18.000Z"
+    },
+    "links": [
+      {
+        "url_type": "ARKIV",
+        "url": "https://hdl.handle.net/11250/2756803"
+      },
+      {
+        "url_type": "FULLTEKST",
+        "url": "https://skriftserien.oslomet.no/index.php/skriftserien/article/view/741/602"
+      }
+    ],
+    "original_language": "xx",
+    "summary": {
+      "xx": "Dyremodeller for atferd har blitt brukt siden de gamle grekernes, både for å studere anatomi og atferd. Sosial atferd har også blitt modellert hos ikke-menneskelige dyr, og disse modellene er spesielt viktige for forskningsfeltet kalt sosial nevrovitenskap. Dette er et underfelt av nevrovitenskap som forsker på de nevrale mekanismene til sosial atferd. En dyremodell på sosial atferd er det sosiale frigjøringsparadigmet, som hevdet å demonstrere empati hos rotter via observasjoner av prososial atferd. I dette paradigmet er en rotte fanget inne i et plastrør, og en annen rotte kan frigjøre den fangede artsfrenden. Stress skapt av empati med den fangede rotta hevdes å oppstå i den frie rotta, og dette empati-stresset antydes å være grunnen til at åpningsatferd oppstår. Imidlertid har denne påstanden om empati hos rotter blitt bestridt. Andre funn peker på at sosial forsterkning er den viktigste faktoren for at den frie rotta skal slippe fri den fangede. I tillegg hviler empatiforklaringen på en forutsetning om at fangenskap forårsaker stress hos den fangede rotten. Nye funn indikerer at fangenskap kanskje ikke er stressende for rottene. Hvis fangenskap ikke er skaper stress, kan ikke det å slippe fri en fanget rotte kategoriseres som empatisk eller prososialt. Denne avhandlingen peker på mangelen på en atferdsmessig fokusert definisjon av empati som passer for dyrestudier. Dette adresseres med en ny konseptualisering av empati basert på grunnleggende prinsipper fra atferdsanalyse. En systematisering av tidligere forskning ved bruk av tre-terms-kontingensen, også lånt fra feltet atferdsanalyse, illustrerer at det er lite kunnskap om stimuli i det sosiale frigjøringsparadigmet. Inntil det er kartlagt hvordan forskjellige stimuli i den eksperimentelle situasjonen påvirker åpning, synes det for tidlig å konkludere med at empatisk motivasjon ligger til grunn for sosial frigjøring. Avhandlingen demonstrerer også hvordan økt eksperimentell kontroll gir bedre forståelse av hva som styrer atferd i det sosiale frigjøringsparadigmet. Forbedringer av eksperimentell apparatur er demonstrert i den første eksperimentelle studien, og denne studien adresserer mangelen på både baseline og trening i den opprinnelige sosiale frigjøringsstudien. Den studien viser også at latenstiden for å åpne er lavere for mat enn for en rotte i mat-depriverte rotter. I tillegg blir forutsetningen om aversjon på grunn av fangenskap, som er et premiss for den foreslåtte empatiske motivasjonen, testet i et annet eksperiment. Der indikerer resultater fra både utforskning og vokaliseringer at fangenskap i sosial frigjørings paradigmet ikke er aversiv. I tillegg til de empiriske funnene er bidraget til denne avhandlingen den nye konseptualiseringen og definisjonen av empati som kan brukes til dyreforsøk, og forslaget om hvordan man systematiserer og integrerer tidligere funn for å identifisere nye områder for fremtidig forskning. Til sist er den viktigste beskjeden i denne avhandlingen at det i studier av sosial atferd hos dyr er nødvendig med en tilnærming som vektlegger det som kan observeres snarere enn teoretiske antagelser."
+    },
+    "title": {
+      "xx": "Investigating social behaviour in animals: The curious case of the prosocial and empathic rat"
+    },
+    "year_published": "2021",
+    "url": "https://api.cristin.no/v2/results/1916723",
+    "number_of_pages": "112",
+    "publisher": {
+      "name": "OsloMet - storbyuniversitetet",
+      "url": "https://kanalregister.hkdir.no/publiseringskanaler/info/forlag?pid=64780E54-AF46-4F0F-805F-D644500AFF92"
+    },
+    "international_standard_numbers": [
+      {
+        "type": "printed",
+        "value": "9788283643039"
+      }
+    ]
+  },
+  {
+    "category": {
+      "code": "PROGRAMPARTICIP",
+      "name": {
+        "en": "Programme participation"
+      }
+    },
+    "contributors": {
+      "url": "https://api.cristin.no/v2/results/1823617/contributors",
+      "count": 2,
+      "preview": [
+        {
+          "first_name": "Magnus Helgheim",
+          "surname": "Blystad"
+        },
+        {
+          "first_name": "Kristian",
+          "surname": "Bendiksen"
+        }
+      ]
+    },
+    "cristin_result_id": "1823617",
+    "nva_result_id": "0198cc6b7de7-36dc1398-2ffb-40d0-b90c-1f4a6a43e972",
+    "created": {
+      "date": "2025-08-21T11:37:33.000Z"
+    },
+    "last_modified": {
+      "date": "2025-10-14T03:43:03.000Z"
+    },
+    "date_published": "2020-08-14T00:00:00.000Z",
+    "links": [
+      {
+        "url_type": "ARKIV",
+        "url": "https://hdl.handle.net/11250/5228983"
+      }
+    ],
+    "original_language": "nb",
+    "title": {
+      "nb": "Studio 2 - Rotter på vandring i Malmø"
+    },
+    "year_published": "2020",
+    "url": "https://api.cristin.no/v2/results/1823617",
+    "media_type": {
+      "code": "RADIO",
+      "code_name": {
+        "en": "Radio"
+      }
+    },
+    "place": "NRK P2"
+  },
+  {
+    "category": {
+      "code": "PROGRAMPARTICIP",
+      "name": {
+        "en": "Programme participation"
+      }
+    },
+    "contributors": {
+      "url": "https://api.cristin.no/v2/results/1813981/contributors",
+      "count": 2,
+      "preview": [
+        {
+          "first_name": "Magnus Helgheim",
+          "surname": "Blystad"
+        },
+        {
+          "first_name": "Grønbech",
+          "surname": "Turi"
+        }
+      ]
+    },
+    "cristin_result_id": "1813981",
+    "nva_result_id": "0198cc62edae-af159343-b4d5-4d5c-a3d4-004323ac62ab",
+    "created": {
+      "date": "2025-08-21T11:28:12.000Z"
+    },
+    "last_modified": {
+      "date": "2025-10-13T18:44:07.000Z"
+    },
+    "date_published": "2020-05-29T00:00:00.000Z",
+    "links": [
+      {
+        "url_type": "ARKIV",
+        "url": "https://hdl.handle.net/11250/4879836"
+      }
+    ],
+    "original_language": "nb",
+    "title": {
+      "nb": "Studio 2 - Rottene lider også under korona tiden"
+    },
+    "year_published": "2020",
+    "url": "https://api.cristin.no/v2/results/1813981",
+    "media_type": {
+      "code": "RADIO",
+      "code_name": {
+        "en": "Radio"
+      }
+    },
+    "place": "NRK P2"
+  },
+  {
+    "category": {
+      "code": "MEDIAINTERVIEW",
+      "name": {
+        "en": "Interview"
+      }
+    },
+    "contributors": {
+      "url": "https://api.cristin.no/v2/results/1785195/contributors",
+      "count": 2,
+      "preview": [
+        {
+          "first_name": "Magnus Helgheim",
+          "surname": "Blystad"
+        },
+        {
+          "first_name": "Mona Sæther",
+          "surname": "Evensen"
+        }
+      ]
+    },
+    "cristin_result_id": "1785195",
+    "nva_result_id": "0198cc5c9966-46792ba4-6774-45ee-8106-2932bb8f71c6",
+    "created": {
+      "date": "2025-08-21T11:21:17.000Z"
+    },
+    "last_modified": {
+      "date": "2025-10-14T02:23:47.000Z"
+    },
+    "date_published": "2020-01-29T00:00:00.000Z",
+    "links": [
+      {
+        "url_type": "ARKIV",
+        "url": "https://hdl.handle.net/11250/5079719"
+      },
+      {
+        "url_type": "FULLTEKST",
+        "url": "https://karriere360.no/artikler/bedrifter-er-designet-for-a-undertrykke-engasjement-mener-professoren-men-mening-i-jobben-kan-du-skape-selv/482083"
+      }
+    ],
+    "original_language": "nb",
+    "title": {
+      "nb": "Bedrifter er designet for å undertrykke engasjement, mener professoren. Men mening i jobben kan du skape selv"
+    },
+    "year_published": "2020",
+    "url": "https://api.cristin.no/v2/results/1785195",
+    "media_type": {
+      "code": "INTERNETT",
+      "code_name": {
+        "en": "Internet"
+      }
+    },
+    "place": "https://karriere360.no/"
+  },
+  {
+    "category": {
+      "code": "ACADEMICREVIEW",
+      "name": {
+        "en": "Academic literature review"
+      }
+    },
+    "channel": {
+      "title": "Revista Mexicana de Analisis de la Conducta"
+    },
+    "contributors": {
+      "url": "https://api.cristin.no/v2/results/1819147/contributors",
+      "count": 1,
+      "preview": [
+        {
+          "first_name": "Magnus Helgheim",
+          "surname": "Blystad"
+        }
+      ]
+    },
+    "cristin_result_id": "1819147",
+    "nva_result_id": "0198cc50f718-31cab047-d170-4b36-992d-bf67b5240155",
+    "created": {
+      "date": "2025-08-21T11:08:34.000Z"
+    },
+    "import_sources": [
+      {
+        "source_name": "SCOPUS",
+        "source_reference_id": "2-s2.0-85090706287"
+      }
+    ],
+    "last_modified": {
+      "date": "2025-08-29T13:24:35.000Z"
+    },
+    "links": [
+      {
+        "url_type": "DOI",
+        "url": "https://doi.org/10.5514/rmac.v45.i2.75563"
+      },
+      {
+        "url_type": "ARKIV",
+        "url": "https://hdl.handle.net/10642/9313"
+      },
+      {
+        "url_type": "FULLTEKST",
+        "url": "http://rmac-mx.org/a-critical-review-of-the-rodent-social-release-paradigm-empathy-or-social-reinforcement/"
+      }
+    ],
+    "original_language": "en",
+    "summary": {
+      "en": "La investigación sobre conducta social animal está creciendo dentro de la neurociencia social. La investigación básica sobre procesos conductuales en animales ha sido siempre el fuerte del análisis de la conducta pero la colaboración y traslape entre ambos campos es mínima. Esto puede ilustrarse con el bien establecido paradigma de liberación social, que involucra dos explicaciones en conflicto: motivaciones empáticas desde de la neurociencia social y reforzamiento social desde un punto de vista conductual. Un análisis basado en la contigencia de tres términos identifica areas dentro de los estudios de liberación social donde hace falta más investigación y que es neutral respecto a las causas en las explicaciones. Este análisis permite la integración de datos desde los puntos de vista de la empatía y el reforzamiento social. Este neutralidad abre el camino para colaboraciones e invita esfuerzos conjuntos para estudiar y aumentar la comprensión de las variables involucradas en el paradigma de liberación social."
+    },
+    "title": {
+      "en": "A critical review of the rodent social release paradigm: Empathy or social reinforcement"
+    },
+    "year_published": "2020",
+    "url": "https://api.cristin.no/v2/results/1819147",
+    "journal": {
+      "cristin_journal_id": "8DEB7074-9080-4CFA-B6BC-688D0C7066F7",
+      "name": "Revista Mexicana de Analisis de la Conducta",
+      "international_standard_numbers": [
+        {
+          "type": "printed",
+          "value": "0185-4534"
+        }
+      ],
+      "nvi_level": "1",
+      "external_url": "https://kanalregister.hkdir.no/publiseringskanaler/info/tidsskrift?pid=8DEB7074-9080-4CFA-B6BC-688D0C7066F7"
+    },
+    "volume": "45",
+    "issue": "2",
+    "pages": {
+      "from": "199",
+      "to": "222"
+    }
+  },
+  {
+    "category": {
+      "code": "ARTICLE",
+      "name": {
+        "en": "Academic article"
+      }
+    },
+    "channel": {
+      "title": "Animal Sentience"
+    },
+    "contributors": {
+      "url": "https://api.cristin.no/v2/results/1675930/contributors",
+      "count": 1,
+      "preview": [
+        {
+          "first_name": "Magnus Helgheim",
+          "surname": "Blystad"
+        }
+      ]
+    },
+    "cristin_result_id": "1675930",
+    "nva_result_id": "0198cc8d394d-ba1ee03a-23a7-4fed-9500-5bca57b4ca39",
+    "created": {
+      "date": "2025-08-21T12:14:24.000Z"
+    },
+    "last_modified": {
+      "date": "2025-10-11T08:53:33.000Z"
+    },
+    "links": [
+      {
+        "url_type": "ARKIV",
+        "url": "https://hdl.handle.net/11250/3266904"
+      },
+      {
+        "url_type": "FULLTEKST",
+        "url": "https://animalstudiesrepository.org/animsent/vol3/iss23/1"
+      }
+    ],
+    "original_language": "en",
+    "summary": {
+      "en": "Chapman & Huffman make use of observations and studies that show how humans may not be as unique in our behaviour and cognition as previously thought. I wholeheartedly agree that our uniqueness might be small and that if it exists, it should not give our species any right to act cruelly towards other animals. However, this kind of logic can be problematic. I present a few of the issues in this commentary."
+    },
+    "title": {
+      "en": "Human-like behavior and cognition: Not a good starting point"
+    },
+    "year_published": "2019",
+    "url": "https://api.cristin.no/v2/results/1675930",
+    "journal": {
+      "cristin_journal_id": "C084E452-AB3C-4149-B111-3343286E657A",
+      "name": "Animal Sentience",
+      "international_standard_numbers": [
+        {
+          "type": "electronic",
+          "value": "2377-7478"
+        }
+      ],
+      "nvi_level": "1",
+      "external_url": "https://kanalregister.hkdir.no/publiseringskanaler/info/tidsskrift?pid=C084E452-AB3C-4149-B111-3343286E657A"
+    },
+    "issue": "23"
+  },
+  {
+    "category": {
+      "code": "POSTER",
+      "name": {
+        "en": "Poster"
+      }
+    },
+    "contributors": {
+      "url": "https://api.cristin.no/v2/results/1694557/contributors",
+      "count": 3,
+      "preview": [
+        {
+          "first_name": "Magnus Helgheim",
+          "surname": "Blystad"
+        },
+        {
+          "first_name": "Anne",
+          "surname": "Bakke"
+        },
+        {
+          "first_name": "Einar",
+          "surname": "Strumse"
+        }
+      ]
+    },
+    "cristin_result_id": "1694557",
+    "nva_result_id": "0198cc84dde6-2f46b128-adcd-41b9-bcb4-7ee19277ddc6",
+    "created": {
+      "date": "2025-08-21T12:05:16.000Z"
+    },
+    "last_modified": {
+      "date": "2025-10-12T20:19:06.000Z"
+    },
+    "links": [
+      {
+        "url_type": "ARKIV",
+        "url": "https://hdl.handle.net/11250/3886221"
+      }
+    ],
+    "original_language": "nb",
+    "title": {
+      "nb": "Psykologi med vekt på Atferdsanalyse - En revidert bachelorgrad ved OsloMet 2019"
+    },
+    "year_published": "2019",
+    "url": "https://api.cristin.no/v2/results/1694557",
+    "event": {
+      "name": "NAFO-Seminaret 2019",
+      "location": "Gol, Storefjell Høyfjellshotell",
+      "date_from": "2019-04-26T00:00:00.000Z",
+      "date_to": "2019-04-26T00:00:00.000Z",
+      "arranged_by": {
+        "name": "Norsk Atferdsanalytisk Forening"
+      }
+    }
+  },
+  {
+    "category": {
+      "code": "ARTICLE",
+      "name": {
+        "en": "Academic article"
+      }
+    },
+    "channel": {
+      "title": "PLOS ONE"
+    },
+    "contributors": {
+      "url": "https://api.cristin.no/v2/results/1733831/contributors",
+      "count": 3,
+      "preview": [
+        {
+          "first_name": "Magnus Helgheim",
+          "surname": "Blystad"
+        },
+        {
+          "first_name": "Danielle",
+          "surname": "Andersen"
+        },
+        {
+          "first_name": "Espen Borgå",
+          "surname": "Johansen"
+        }
+      ]
+    },
+    "cristin_result_id": "1733831",
+    "nva_result_id": "0198cc80e976-7617ac25-075d-4525-98df-5b94674657a1",
+    "created": {
+      "date": "2025-08-21T12:00:57.000Z"
+    },
+    "import_sources": [
+      {
+        "source_name": "SCOPUS",
+        "source_reference_id": "2-s2.0-85072795979"
+      }
+    ],
+    "last_modified": {
+      "date": "2025-08-29T13:25:24.000Z"
+    },
+    "links": [
+      {
+        "url_type": "DOI",
+        "url": "https://doi.org/10.1371/journal.pone.0223039"
+      },
+      {
+        "url_type": "ARKIV",
+        "url": "https://hdl.handle.net/10642/7686"
+      }
+    ],
+    "original_language": "en",
+    "summary": {
+      "en": "Research on pro-social rat behaviour is growing within the fields of comparative psychology and social neuroscience. However, much work remains on mapping important variables influencing this behaviour, and there is even disagreement on whether this behaviour is empathetically motivated and correctly labelled pro-social, or whether the behaviour is motivated by social contact. The present study used the helping behaviour paradigm where a rat can release a familiar cagemate from a restrainer. Prior to testing with a trapped cagemate, restrainer door opening was trained and baseline opening latencies when the restrainer was empty or baited with food were established. The findings show that the first-time release occurred sooner than in previous research and that rats used a previously demonstrated response to release the trapped cagemate. Further, rats opened the restrainer door more often and with shorter latencies when the restrainer contained a cagemate than when the restrainer was empty, but less often and with longer latencies than when the restrainer contained food. The test of whether illumination levels affect door-opening included in the study showed no effects."
+    },
+    "title": {
+      "en": "Female rats release a trapped cagemate following shaping of the door opening response: Opening latency when the restrainer was baited with food, was empty, or contained a cagemate"
+    },
+    "year_published": "2019",
+    "url": "https://api.cristin.no/v2/results/1733831",
+    "journal": {
+      "cristin_journal_id": "97E6092D-1A28-4686-82EF-3CC49AAC0197",
+      "name": "PLOS ONE",
+      "international_standard_numbers": [
+        {
+          "type": "electronic",
+          "value": "1932-6203"
+        }
+      ],
+      "nvi_level": "1",
+      "external_url": "https://kanalregister.hkdir.no/publiseringskanaler/info/tidsskrift?pid=97E6092D-1A28-4686-82EF-3CC49AAC0197"
+    },
+    "volume": "14",
+    "issue": "10"
+  },
+  {
+    "category": {
+      "code": "MEDIAINTERVIEW",
+      "name": {
+        "en": "Interview"
+      }
+    },
+    "contributors": {
+      "url": "https://api.cristin.no/v2/results/1761661/contributors",
+      "count": 2,
+      "preview": [
+        {
+          "first_name": "Rolf Magnus",
+          "surname": "Grung"
+        },
+        {
+          "first_name": "Magnus Helgheim",
+          "surname": "Blystad"
+        }
+      ]
+    },
+    "cristin_result_id": "1761661",
+    "nva_result_id": "0198cc5f67ea-644dceaf-b92a-4fe7-a33f-ed82dcf64db3",
+    "created": {
+      "date": "2025-08-21T11:24:21.000Z"
+    },
+    "last_modified": {
+      "date": "2025-10-13T18:56:04.000Z"
+    },
+    "date_published": "2019-12-17T00:00:00.000Z",
+    "links": [
+      {
+        "url_type": "ARKIV",
+        "url": "https://hdl.handle.net/11250/4901853"
+      },
+      {
+        "url_type": "FULLTEKST",
+        "url": "https://vernepleier.no/2019/12/har-rotter-empati/"
+      }
+    ],
+    "original_language": "nb",
+    "title": {
+      "nb": "Har rotter empati?"
+    },
+    "year_published": "2019",
+    "url": "https://api.cristin.no/v2/results/1761661",
+    "media_type": {
+      "code": "INTERNETT",
+      "code_name": {
+        "en": "Internet"
+      }
+    },
+    "place": "Vernepleier.no"
+  },
+  {
+    "category": {
+      "code": "MEDIAINTERVIEW",
+      "name": {
+        "en": "Interview"
+      }
+    },
+    "contributors": {
+      "url": "https://api.cristin.no/v2/results/1761659/contributors",
+      "count": 2,
+      "preview": [
+        {
+          "first_name": "Magnus Helgheim",
+          "surname": "Blystad"
+        },
+        {
+          "first_name": "Hallvard",
+          "surname": "Lavoll"
+        }
+      ]
+    },
+    "cristin_result_id": "1761659",
+    "nva_result_id": "0198cc5d28cc-0e14e8db-a22b-4ef2-9095-35cbe3aeab2c",
+    "created": {
+      "date": "2025-08-21T11:21:54.000Z"
+    },
+    "last_modified": {
+      "date": "2025-10-12T05:06:29.000Z"
+    },
+    "date_published": "2019-12-06T00:00:00.000Z",
+    "links": [
+      {
+        "url_type": "ARKIV",
+        "url": "https://hdl.handle.net/11250/3731616"
+      }
+    ],
+    "original_language": "nb",
+    "summary": {
+      "nb": "Magnus Helgheim Blystad er stipendiat på institutt for atferdsvitenskap og forsker på atferd hos rotter, og mulige miljøpåvirkninger på slik atferd. I denne episoden forklarer Magnus hvordan en kan bruke rotter i forskningen, hva kjennetegner grunnforskning og om hvordan empatibegrepet kom inn i psykologen fra kunsten."
+    },
+    "title": {
+      "nb": "Magnus og rottene"
+    },
+    "year_published": "2019",
+    "url": "https://api.cristin.no/v2/results/1761659",
+    "media_type": {
+      "code": "INTERNETT",
+      "code_name": {
+        "en": "Internet"
+      }
+    },
+    "place": "Viten og Snakkis"
+  },
+  {
+    "category": {
+      "code": "ACADEMICLECTURE",
+      "name": {
+        "en": "Academic lecture"
+      }
+    },
+    "contributors": {
+      "url": "https://api.cristin.no/v2/results/1613885/contributors",
+      "count": 1,
+      "preview": [
+        {
+          "first_name": "Magnus Helgheim",
+          "surname": "Blystad"
+        }
+      ]
+    },
+    "cristin_result_id": "1613885",
+    "nva_result_id": "0198cc71bb16-e2de3c21-5dea-4d6b-a452-3cf40259e9a9",
+    "created": {
+      "date": "2025-08-21T11:44:22.000Z"
+    },
+    "last_modified": {
+      "date": "2025-10-14T03:27:55.000Z"
+    },
+    "links": [
+      {
+        "url_type": "ARKIV",
+        "url": "https://hdl.handle.net/11250/5200475"
+      }
+    ],
+    "original_language": "en",
+    "title": {
+      "en": "The role of Ultrasonic Vocalisation in Pro-Social Rat Behavior - A Preliminary Analysis"
+    },
+    "year_published": "2018",
+    "url": "https://api.cristin.no/v2/results/1613885",
+    "event": {
+      "name": "The 6th National PhD Conference in Neuroscience",
+      "location": "Inderøy",
+      "date_from": "2018-09-19T00:00:00.000Z",
+      "date_to": "2018-09-21T00:00:00.000Z",
+      "arranged_by": {
+        "name": "NRSN "
+      }
+    }
+  },
+  {
+    "category": {
+      "code": "ARTICLEFEATURE",
+      "name": {
+        "en": "Feature article"
+      }
+    },
+    "channel": {},
+    "contributors": {
+      "url": "https://api.cristin.no/v2/results/1590745/contributors",
+      "count": 2,
+      "preview": [
+        {
+          "first_name": "Magnus Helgheim",
+          "surname": "Blystad"
+        },
+        {
+          "first_name": "Espen A.",
+          "surname": "Sjøberg"
+        }
+      ]
+    },
+    "cristin_result_id": "1590745",
+    "nva_result_id": "0198cc66b2a7-0ab227db-0de0-463b-baa7-580a5a05abfb",
+    "created": {
+      "date": "2025-08-21T11:32:19.000Z"
+    },
+    "last_modified": {
+      "date": "2025-10-12T00:00:49.000Z"
+    },
+    "date_published": "2018-06-05T00:00:00.000Z",
+    "links": [
+      {
+        "url_type": "ARKIV",
+        "url": "https://hdl.handle.net/11250/3615477"
+      },
+      {
+        "url_type": "FULLTEKST",
+        "url": "https://www.aftenposten.no/viten/i/zLy18O/-A-gi-menneskelige-egenskaper-til-dyr-kan-vare-problematisk"
+      }
+    ],
+    "original_language": "nb",
+    "title": {
+      "nb": "Å gi menneskelige egenskaper til dyr kan være problematisk"
+    },
+    "year_published": "2018",
+    "url": "https://api.cristin.no/v2/results/1590745",
+    "journal": {}
+  },
+  {
+    "category": {
+      "code": "MEDIAINTERVIEW",
+      "name": {
+        "en": "Interview"
+      }
+    },
+    "contributors": {
+      "url": "https://api.cristin.no/v2/results/1545583/contributors",
+      "count": 4,
+      "preview": [
+        {
+          "first_name": "Magnus Helgheim",
+          "surname": "Blystad"
+        },
+        {
+          "first_name": "Guri",
+          "surname": "Haram"
+        },
+        {
+          "first_name": "Nikola",
+          "surname": "Ljusic"
+        },
+        {
+          "first_name": "Nora Marie",
+          "surname": "Sigurdsen"
+        }
+      ]
+    },
+    "cristin_result_id": "1545583",
+    "nva_result_id": "0198cc588b08-ea909735-1a9a-4344-80be-b19beb8502fb",
+    "created": {
+      "date": "2025-08-21T11:16:51.000Z"
+    },
+    "last_modified": {
+      "date": "2025-10-12T00:11:15.000Z"
+    },
+    "date_published": "2018-01-01T00:00:00.000Z",
+    "links": [
+      {
+        "url_type": "ARKIV",
+        "url": "https://hdl.handle.net/11250/3619430"
+      }
+    ],
+    "original_language": "nb",
+    "title": {
+      "nb": "Et Ekte Rotterace (2018)"
+    },
+    "year_published": "2018",
+    "url": "https://api.cristin.no/v2/results/1545583",
+    "media_type": {
+      "code": "TIDSSKRIFT",
+      "code_name": {
+        "en": "Journal"
+      }
+    },
+    "place": "Studiemagasinet 18/19"
+  },
+  {
+    "category": {
+      "code": "ARTICLEPOPULAR",
+      "name": {
+        "en": "Popular scientific article"
+      }
+    },
+    "channel": {
+      "title": "Samtiden. Tidsskrift for politikk, litteratur og samfunnsspørsmål"
+    },
+    "contributors": {
+      "url": "https://api.cristin.no/v2/results/1475278/contributors",
+      "count": 1,
+      "preview": [
+        {
+          "first_name": "Magnus Helgheim",
+          "surname": "Blystad"
+        }
+      ]
+    },
+    "cristin_result_id": "1475278",
+    "nva_result_id": "0198cc93a506-f9a50fe2-1481-4239-ad80-a4bfdb9c470d",
+    "created": {
+      "date": "2025-08-21T12:21:24.000Z"
+    },
+    "last_modified": {
+      "date": "2025-10-11T08:07:32.000Z"
+    },
+    "links": [
+      {
+        "url_type": "ARKIV",
+        "url": "https://hdl.handle.net/11250/3250354"
+      }
+    ],
+    "original_language": "nb",
+    "title": {
+      "nb": "Respons. De andre empatiske dyrene"
+    },
+    "year_published": "2017",
+    "url": "https://api.cristin.no/v2/results/1475278",
+    "journal": {
+      "cristin_journal_id": "004CBD93-FF58-44D1-8DD6-489EB5B2F68C",
+      "name": "Samtiden. Tidsskrift for politikk, litteratur og samfunnsspørsmål",
+      "external_url": "https://kanalregister.hkdir.no/publiseringskanaler/info/nvakanal?pid=004CBD93-FF58-44D1-8DD6-489EB5B2F68C"
+    },
+    "issue": "2/2017"
+  },
+  {
+    "category": {
+      "code": "ACADEMICLECTURE",
+      "name": {
+        "en": "Academic lecture"
+      }
+    },
+    "contributors": {
+      "url": "https://api.cristin.no/v2/results/1469535/contributors",
+      "count": 1,
+      "preview": [
+        {
+          "first_name": "Magnus Helgheim",
+          "surname": "Blystad"
+        }
+      ]
+    },
+    "cristin_result_id": "1469535",
+    "nva_result_id": "0198cc7d7ec0-91eb9dce-b716-4f6f-bd95-ac53f4224f2e",
+    "created": {
+      "date": "2025-08-21T11:57:13.000Z"
+    },
+    "last_modified": {
+      "date": "2025-10-11T12:25:44.000Z"
+    },
+    "links": [
+      {
+        "url_type": "ARKIV",
+        "url": "https://hdl.handle.net/11250/3349650"
+      }
+    ],
+    "original_language": "en",
+    "title": {
+      "en": "Rats show intentional pro-social behavior; an expansion on, and replication of, previous results"
+    },
+    "year_published": "2017",
+    "url": "https://api.cristin.no/v2/results/1469535",
+    "event": {
+      "name": "Spring 2017 Seminar",
+      "location": "Oslo",
+      "date_from": "2017-05-09T00:00:00.000Z",
+      "date_to": "2017-05-09T00:00:00.000Z",
+      "arranged_by": {
+        "name": "Cultural Selection and Behavioral Economics Lab"
+      }
+    }
+  },
+  {
+    "category": {
+      "code": "POSTER",
+      "name": {
+        "en": "Poster"
+      }
+    },
+    "contributors": {
+      "url": "https://api.cristin.no/v2/results/1469521/contributors",
+      "count": 3,
+      "preview": [
+        {
+          "first_name": "Magnus Helgheim",
+          "surname": "Blystad"
+        },
+        {
+          "first_name": "Danielle",
+          "surname": "Andersen"
+        },
+        {
+          "first_name": "Espen Borgå",
+          "surname": "Johansen"
+        }
+      ]
+    },
+    "cristin_result_id": "1469521",
+    "nva_result_id": "0198cc737622-847e035b-ae5e-4a85-b9fb-a9af01945111",
+    "created": {
+      "date": "2025-08-21T11:46:15.000Z"
+    },
+    "last_modified": {
+      "date": "2025-10-12T01:15:07.000Z"
+    },
+    "links": [
+      {
+        "url_type": "ARKIV",
+        "url": "https://hdl.handle.net/11250/3644050"
+      }
+    ],
+    "original_language": "nb",
+    "title": {
+      "nb": "Intensjonell hjelpeatferd hos rotter - Latens og topografi data fra en gruppestudie"
+    },
+    "year_published": "2017",
+    "url": "https://api.cristin.no/v2/results/1469521",
+    "event": {
+      "name": "NAFO-seminaret 2017",
+      "location": "Storefjell, Gol",
+      "date_from": "2017-05-05T00:00:00.000Z",
+      "date_to": "2017-05-05T00:00:00.000Z",
+      "arranged_by": {
+        "name": "Norsk Atferdsanalytisk Forening"
+      }
+    }
+  },
+  {
+    "category": {
+      "code": "LECTURE",
+      "name": {
+        "en": "Lecture"
+      }
+    },
+    "contributors": {
+      "url": "https://api.cristin.no/v2/results/1469518/contributors",
+      "count": 1,
+      "preview": [
+        {
+          "first_name": "Magnus Helgheim",
+          "surname": "Blystad"
+        }
+      ]
+    },
+    "cristin_result_id": "1469518",
+    "nva_result_id": "0198cc7015cb-3f2a47cb-5937-4660-b941-c8575120aab1",
+    "created": {
+      "date": "2025-08-21T11:42:34.000Z"
+    },
+    "last_modified": {
+      "date": "2025-10-13T09:45:02.000Z"
+    },
+    "links": [
+      {
+        "url_type": "ARKIV",
+        "url": "https://hdl.handle.net/11250/3996992"
+      }
+    ],
+    "original_language": "nb",
+    "title": {
+      "nb": "Biologi og Stimuli - En kort og lettfattet introduksjon til sensorisk nevrovitenskap"
+    },
+    "year_published": "2017",
+    "url": "https://api.cristin.no/v2/results/1469518",
+    "event": {
+      "name": "NAFO-seminaret 2017",
+      "location": "Storefjell, Gol",
+      "date_from": "2017-05-05T00:00:00.000Z",
+      "date_to": "2017-05-05T00:00:00.000Z",
+      "arranged_by": {
+        "name": "Norsk Atferdsanalytisk Forening"
+      }
+    }
+  },
+  {
+    "category": {
+      "code": "PROGRAMPARTICIP",
+      "name": {
+        "en": "Programme participation"
+      }
+    },
+    "contributors": {
+      "url": "https://api.cristin.no/v2/results/1470525/contributors",
+      "count": 3,
+      "preview": [
+        {
+          "first_name": "Magnus Helgheim",
+          "surname": "Blystad"
+        },
+        {
+          "first_name": "Marit",
+          "surname": "Råbu"
+        },
+        {
+          "first_name": "Ellen Wesche",
+          "surname": "Guttormsen"
+        }
+      ]
+    },
+    "cristin_result_id": "1470525",
+    "nva_result_id": "0198cc6af1b6-4525ef26-823c-4eb6-afbc-c7079f9902fc",
+    "created": {
+      "date": "2025-08-21T11:36:57.000Z"
+    },
+    "last_modified": {
+      "date": "2025-10-13T15:13:35.000Z"
+    },
+    "date_published": "2017-05-13T00:00:00.000Z",
+    "links": [
+      {
+        "url_type": "ARKIV",
+        "url": "https://hdl.handle.net/11250/4500230"
+      }
+    ],
+    "original_language": "nb",
+    "title": {
+      "nb": "Ekko Helg - Treng me meir eller mindre empati?"
+    },
+    "year_published": "2017",
+    "url": "https://api.cristin.no/v2/results/1470525",
+    "media_type": {
+      "code": "RADIO",
+      "code_name": {
+        "en": "Radio"
+      }
+    },
+    "place": "NRK P2"
+  },
+  {
+    "category": {
+      "code": "MEDIAINTERVIEW",
+      "name": {
+        "en": "Interview"
+      }
+    },
+    "contributors": {
+      "url": "https://api.cristin.no/v2/results/1452325/contributors",
+      "count": 2,
+      "preview": [
+        {
+          "first_name": "Ane Bamble",
+          "surname": "Tjellaug"
+        },
+        {
+          "first_name": "Magnus Helgheim",
+          "surname": "Blystad"
+        }
+      ]
+    },
+    "cristin_result_id": "1452325",
+    "nva_result_id": "0198cc62069e-6761a87a-5cb3-4470-ab39-eaae1105d00d",
+    "created": {
+      "date": "2025-08-21T11:27:13.000Z"
+    },
+    "last_modified": {
+      "date": "2025-10-13T11:39:25.000Z"
+    },
+    "date_published": "2017-02-18T00:00:00.000Z",
+    "links": [
+      {
+        "url_type": "ARKIV",
+        "url": "https://hdl.handle.net/11250/4128297"
+      }
+    ],
+    "original_language": "nb",
+    "summary": {
+      "nb": "En reportasje omkring forskjellige vinklinger på empati. Andre som ble representert var Paul Bloom, Rane Willerslev og Nils Bubandt."
+    },
+    "title": {
+      "nb": "Hvem vil du hjelpe?"
+    },
+    "year_published": "2017",
+    "url": "https://api.cristin.no/v2/results/1452325",
+    "media_type": {
+      "code": "TIDSSKRIFT",
+      "code_name": {
+        "en": "Journal"
+      }
+    },
+    "place": "Vårt Land"
+  },
+  {
+    "category": {
+      "code": "POSTER",
+      "name": {
+        "en": "Poster"
+      }
+    },
+    "contributors": {
+      "url": "https://api.cristin.no/v2/results/1515998/contributors",
+      "count": 3,
+      "preview": [
+        {
+          "first_name": "Magnus Helgheim",
+          "surname": "Blystad"
+        },
+        {
+          "first_name": "Danielle",
+          "surname": "Andersen"
+        },
+        {
+          "first_name": "Espen Borgå",
+          "surname": "Johansen"
+        }
+      ]
+    },
+    "cristin_result_id": "1515998",
+    "nva_result_id": "0198cc5ea6bc-7510bd8b-ad94-438c-8288-36243f55a478",
+    "created": {
+      "date": "2025-08-21T11:23:31.000Z"
+    },
+    "last_modified": {
+      "date": "2025-10-13T11:29:37.000Z"
+    },
+    "links": [
+      {
+        "url_type": "ARKIV",
+        "url": "https://hdl.handle.net/11250/4111030"
+      }
+    ],
+    "original_language": "en",
+    "title": {
+      "en": "700.05/PP24 Rodent model of Empathy: Rats employ taught behavior to help cagemate that remains intact during environmental change"
+    },
+    "year_published": "2017",
+    "url": "https://api.cristin.no/v2/results/1515998",
+    "event": {
+      "name": "Neuroscience 2017",
+      "location": "Washington DC",
+      "date_from": "2017-11-11T00:00:00.000Z",
+      "date_to": "2017-11-15T00:00:00.000Z",
+      "arranged_by": {
+        "name": "Society For Neuroscience"
+      }
+    }
+  },
+  {
+    "category": {
+      "code": "MEDIAINTERVIEW",
+      "name": {
+        "en": "Interview"
+      }
+    },
+    "contributors": {
+      "url": "https://api.cristin.no/v2/results/1423124/contributors",
+      "count": 4,
+      "preview": [
+        {
+          "first_name": "Magnus Helgheim",
+          "surname": "Blystad"
+        },
+        {
+          "first_name": "Guri",
+          "surname": "Haram"
+        },
+        {
+          "first_name": "Nora Marie",
+          "surname": "Sigurdsen"
+        },
+        {
+          "first_name": "Nikola",
+          "surname": "Ljusic"
+        }
+      ]
+    },
+    "cristin_result_id": "1423124",
+    "nva_result_id": "0198cc579091-c61e68d2-0a2f-4426-b813-7c8ceeb351f7",
+    "created": {
+      "date": "2025-08-21T11:15:47.000Z"
+    },
+    "last_modified": {
+      "date": "2025-10-13T15:44:07.000Z"
+    },
+    "date_published": "2017-01-02T00:00:00.000Z",
+    "links": [
+      {
+        "url_type": "ARKIV",
+        "url": "https://hdl.handle.net/11250/4554254"
+      }
+    ],
+    "original_language": "nb",
+    "title": {
+      "nb": "Et ekte rotterace"
+    },
+    "year_published": "2017",
+    "url": "https://api.cristin.no/v2/results/1423124",
+    "media_type": {
+      "code": "TIDSSKRIFT",
+      "code_name": {
+        "en": "Journal"
+      }
+    },
+    "place": "Studiemagasinet 17/18"
+  },
+  {
+    "category": {
+      "code": "LECTURE",
+      "name": {
+        "en": "Lecture"
+      }
+    },
+    "contributors": {
+      "url": "https://api.cristin.no/v2/results/1497657/contributors",
+      "count": 1,
+      "preview": [
+        {
+          "first_name": "Magnus Helgheim",
+          "surname": "Blystad"
+        }
+      ]
+    },
+    "cristin_result_id": "1497657",
+    "nva_result_id": "0198cc4deec1-e704faa4-f5d2-453c-8f97-0fc691c09188",
+    "created": {
+      "date": "2025-08-21T11:05:16.000Z"
+    },
+    "last_modified": {
+      "date": "2025-10-13T13:52:04.000Z"
+    },
+    "links": [
+      {
+        "url_type": "ARKIV",
+        "url": "https://hdl.handle.net/11250/4356471"
+      }
+    ],
+    "original_language": "nb",
+    "title": {
+      "nb": "Hvordan forsker forskeren? – Om forskning, kritisk tenkning, og rotter som bryr seg om hverandre"
+    },
+    "year_published": "2017",
+    "url": "https://api.cristin.no/v2/results/1497657",
+    "event": {
+      "name": "Ungforsk 2017",
+      "location": "Oslo",
+      "date_from": "2017-09-19T00:00:00.000Z",
+      "date_to": "2017-09-19T00:00:00.000Z",
+      "arranged_by": {
+        "name": "Ungforsk - HiOA, NMBU, UiO"
+      }
+    }
+  },
+  {
+    "category": {
+      "code": "POSTER",
+      "name": {
+        "en": "Poster"
+      }
+    },
+    "contributors": {
+      "url": "https://api.cristin.no/v2/results/1497664/contributors",
+      "count": 3,
+      "preview": [
+        {
+          "first_name": "Magnus Helgheim",
+          "surname": "Blystad"
+        },
+        {
+          "first_name": "Danielle",
+          "surname": "Andersen"
+        },
+        {
+          "first_name": "Espen Borgå",
+          "surname": "Johansen"
+        }
+      ]
+    },
+    "cristin_result_id": "1497664",
+    "nva_result_id": "0198cc4d9c44-82807085-dbf7-4887-a138-c48d4f1a06ef",
+    "created": {
+      "date": "2025-08-21T11:04:55.000Z"
+    },
+    "last_modified": {
+      "date": "2025-10-14T02:25:38.000Z"
+    },
+    "links": [
+      {
+        "url_type": "ARKIV",
+        "url": "https://hdl.handle.net/11250/5083139"
+      }
+    ],
+    "original_language": "en",
+    "title": {
+      "en": "Intentionality in Rodent Empathy-like Behavior"
+    },
+    "year_published": "2017",
+    "url": "https://api.cristin.no/v2/results/1497664",
+    "event": {
+      "name": "The 5th National PhD Conference in Neuroscience",
+      "location": "Tromsø",
+      "date_from": "2017-09-20T00:00:00.000Z",
+      "date_to": "2017-09-22T00:00:00.000Z",
+      "arranged_by": {
+        "name": "NRSN"
+      }
+    }
+  },
+  {
+    "category": {
+      "code": "MEDIAINTERVIEW",
+      "name": {
+        "en": "Interview"
+      }
+    },
+    "contributors": {
+      "url": "https://api.cristin.no/v2/results/1338739/contributors",
+      "count": 4,
+      "preview": [
+        {
+          "first_name": "Magnus Helgheim",
+          "surname": "Blystad"
+        },
+        {
+          "first_name": "Nikola",
+          "surname": "Ljusic"
+        },
+        {
+          "first_name": "Nora Marie",
+          "surname": "Sigurdsen"
+        },
+        {
+          "first_name": "Guri",
+          "surname": "Haram"
+        }
+      ]
+    },
+    "cristin_result_id": "1338739",
+    "nva_result_id": "0198cc93da08-873bd244-3993-4f2e-a3de-8816ecf734a1",
+    "created": {
+      "date": "2025-08-21T12:21:38.000Z"
+    },
+    "last_modified": {
+      "date": "2025-10-11T14:41:25.000Z"
+    },
+    "date_published": "2016-02-21T00:00:00.000Z",
+    "links": [
+      {
+        "url_type": "ARKIV",
+        "url": "https://hdl.handle.net/11250/3402479"
+      },
+      {
+        "url_type": "FULLTEKST",
+        "url": "http://www.hioa.no/24_7/Helse/Forsker-paa-rottenes-psykologi"
+      }
+    ],
+    "original_language": "nb",
+    "title": {
+      "nb": "Forsker på rottenes psykologi"
+    },
+    "year_published": "2016",
+    "url": "https://api.cristin.no/v2/results/1338739",
+    "media_type": {
+      "code": "INTERNETT",
+      "code_name": {
+        "en": "Internet"
+      }
+    },
+    "place": "24/7- Studentliv ved HiOA"
+  },
+  {
+    "category": {
+      "code": "MEDIAINTERVIEW",
+      "name": {
+        "en": "Interview"
+      }
+    },
+    "contributors": {
+      "url": "https://api.cristin.no/v2/results/1360661/contributors",
+      "count": 3,
+      "preview": [
+        {
+          "first_name": "Magnus Helgheim",
+          "surname": "Blystad"
+        },
+        {
+          "first_name": "Stig",
+          "surname": "Nøra"
+        },
+        {
+          "first_name": "Kjersti",
+          "surname": "Thoresen"
+        }
+      ]
+    },
+    "cristin_result_id": "1360661",
+    "nva_result_id": "0198cc93230c-9f118950-8310-464f-9b40-ee802e2f8f53",
+    "created": {
+      "date": "2025-08-21T12:20:51.000Z"
+    },
+    "last_modified": {
+      "date": "2025-10-14T03:03:49.000Z"
+    },
+    "date_published": "2016-06-10T00:00:00.000Z",
+    "links": [
+      {
+        "url_type": "ARKIV",
+        "url": "https://hdl.handle.net/11250/5155388"
+      }
+    ],
+    "original_language": "nb",
+    "title": {
+      "nb": "Folk er mer empatiske enn de tror (Podcast)"
+    },
+    "year_published": "2016",
+    "url": "https://api.cristin.no/v2/results/1360661",
+    "media_type": {
+      "code": "INTERNETT",
+      "code_name": {
+        "en": "Internet"
+      }
+    },
+    "place": "Viten + Snakkis Podcast"
+  },
+  {
+    "category": {
+      "code": "MEDIAINTERVIEW",
+      "name": {
+        "en": "Interview"
+      }
+    },
+    "contributors": {
+      "url": "https://api.cristin.no/v2/results/1309462/contributors",
+      "count": 4,
+      "preview": [
+        {
+          "first_name": "Magnus Helgheim",
+          "surname": "Blystad"
+        },
+        {
+          "first_name": "Nikola",
+          "surname": "Ljusic"
+        },
+        {
+          "first_name": "Nora Marie",
+          "surname": "Sigurdsen"
+        },
+        {
+          "first_name": "Guri",
+          "surname": "Haram"
+        }
+      ]
+    },
+    "cristin_result_id": "1309462",
+    "nva_result_id": "0198cc8d5ea7-4c2311c8-b05d-4156-9add-5eb49e494968",
+    "created": {
+      "date": "2025-08-21T12:14:33.000Z"
+    },
+    "last_modified": {
+      "date": "2025-10-13T14:02:23.000Z"
+    },
+    "date_published": "2016-01-01T00:00:00.000Z",
+    "links": [
+      {
+        "url_type": "ARKIV",
+        "url": "https://hdl.handle.net/11250/4374336"
+      }
+    ],
+    "original_language": "nb",
+    "summary": {
+      "nb": "Intervju i studiemagasinet angående en pilotstudie til mitt PhD prosjekt med to bachelor studenter. Magasinet deles ut til avgangsstudenter ved VGS i Oslo og Akershus, og nye studenter ved HiOA. Det er også tilgjengelig på campus ved HiOA og i NAV/Bibliotek. "
+    },
+    "title": {
+      "nb": "Forsker på rottenes sosiale atferd"
+    },
+    "year_published": "2016",
+    "url": "https://api.cristin.no/v2/results/1309462",
+    "media_type": {
+      "code": "TIDSSKRIFT",
+      "code_name": {
+        "en": "Journal"
+      }
+    },
+    "place": "HiOA - Studiemagasinet 16/17"
+  },
+  {
+    "category": {
+      "code": "LECTURE",
+      "name": {
+        "en": "Lecture"
+      }
+    },
+    "contributors": {
+      "url": "https://api.cristin.no/v2/results/1390959/contributors",
+      "count": 1,
+      "preview": [
+        {
+          "first_name": "Magnus Helgheim",
+          "surname": "Blystad"
+        }
+      ]
+    },
+    "cristin_result_id": "1390959",
+    "nva_result_id": "0198cc8cf8f3-3ee8b826-8147-4453-9f84-540f05d8515f",
+    "created": {
+      "date": "2025-08-21T12:14:07.000Z"
+    },
+    "last_modified": {
+      "date": "2025-10-13T09:47:11.000Z"
+    },
+    "links": [
+      {
+        "url_type": "ARKIV",
+        "url": "https://hdl.handle.net/11250/3998871"
+      }
+    ],
+    "original_language": "en",
+    "title": {
+      "en": "Can we measure empathy in animals? Evidence from studies on pro-social behavior in rats"
+    },
+    "year_published": "2016",
+    "url": "https://api.cristin.no/v2/results/1390959",
+    "event": {
+      "name": "Guest Lecture in the Social Psychology Colloquium",
+      "location": "Oslo",
+      "date_from": "2016-10-11T00:00:00.000Z",
+      "date_to": "2016-10-11T00:00:00.000Z",
+      "arranged_by": {
+        "name": "Psykologisk Institutt, Universitetet I Oslo"
+      }
+    }
+  },
+  {
+    "category": {
+      "code": "PROGRAMPARTICIP",
+      "name": {
+        "en": "Programme participation"
+      }
+    },
+    "contributors": {
+      "url": "https://api.cristin.no/v2/results/1355922/contributors",
+      "count": 3,
+      "preview": [
+        {
+          "first_name": "Magnus Helgheim",
+          "surname": "Blystad"
+        },
+        {
+          "first_name": "Hallvard",
+          "surname": "Lavoll"
+        },
+        {
+          "first_name": "Kjersti",
+          "surname": "Granås"
+        }
+      ]
+    },
+    "cristin_result_id": "1355922",
+    "nva_result_id": "0198cc81f8a2-4df2c1e5-f0dd-43f2-813c-a4fa4d3cbff8",
+    "created": {
+      "date": "2025-08-21T12:02:06.000Z"
+    },
+    "last_modified": {
+      "date": "2025-10-12T16:13:13.000Z"
+    },
+    "date_published": "2016-05-13T00:00:00.000Z",
+    "links": [
+      {
+        "url_type": "ARKIV",
+        "url": "https://hdl.handle.net/11250/3784609"
+      }
+    ],
+    "original_language": "nb",
+    "title": {
+      "nb": "Stress! (Podcast)"
+    },
+    "year_published": "2016",
+    "url": "https://api.cristin.no/v2/results/1355922",
+    "media_type": {
+      "code": "INTERNETT",
+      "code_name": {
+        "en": "Internet"
+      }
+    },
+    "place": "Viten+Snakkis Podcast "
+  },
+  {
+    "category": {
+      "code": "ARTICLEFEATURE",
+      "name": {
+        "en": "Feature article"
+      }
+    },
+    "channel": {},
+    "contributors": {
+      "url": "https://api.cristin.no/v2/results/1375116/contributors",
+      "count": 1,
+      "preview": [
+        {
+          "first_name": "Magnus Helgheim",
+          "surname": "Blystad"
+        }
+      ]
+    },
+    "cristin_result_id": "1375116",
+    "nva_result_id": "0198cc7debe0-25aaba14-eee0-46b8-abd5-2a9c3c032714",
+    "created": {
+      "date": "2025-08-21T11:57:41.000Z"
+    },
+    "last_modified": {
+      "date": "2025-10-11T21:43:34.000Z"
+    },
+    "date_published": "2016-08-21T00:00:00.000Z",
+    "links": [
+      {
+        "url_type": "ARKIV",
+        "url": "https://hdl.handle.net/11250/3561835"
+      },
+      {
+        "url_type": "FULLTEKST",
+        "url": "http://forskning.no/2016/08/de-hjelpsomme-dyrene"
+      }
+    ],
+    "original_language": "nb",
+    "title": {
+      "nb": "Dyr hjelper hverandre"
+    },
+    "year_published": "2016",
+    "url": "https://api.cristin.no/v2/results/1375116",
+    "journal": {}
+  },
+  {
+    "category": {
+      "code": "ARTICLEFEATURE",
+      "name": {
+        "en": "Feature article"
+      }
+    },
+    "channel": {},
+    "contributors": {
+      "url": "https://api.cristin.no/v2/results/1347110/contributors",
+      "count": 1,
+      "preview": [
+        {
+          "first_name": "Magnus Helgheim",
+          "surname": "Blystad"
+        }
+      ]
+    },
+    "cristin_result_id": "1347110",
+    "nva_result_id": "0198cc7dc182-02bfe1ec-e9b6-4b3c-9a3e-e193fcedc2d4",
+    "created": {
+      "date": "2025-08-21T11:57:30.000Z"
+    },
+    "last_modified": {
+      "date": "2025-10-14T01:22:48.000Z"
+    },
+    "date_published": "2016-03-24T00:00:00.000Z",
+    "links": [
+      {
+        "url_type": "ARKIV",
+        "url": "https://hdl.handle.net/11250/4976961"
+      },
+      {
+        "url_type": "FULLTEKST",
+        "url": "http://www.khrono.no/debatt/empati-jeg-veit-du-har-det-i-deg"
+      }
+    ],
+    "original_language": "nb",
+    "title": {
+      "nb": "Empati – Jeg veit du har det i deg"
+    },
+    "year_published": "2016",
+    "url": "https://api.cristin.no/v2/results/1347110",
+    "journal": {}
+  },
+  {
+    "category": {
+      "code": "ACADEMICLECTURE",
+      "name": {
+        "en": "Academic lecture"
+      }
+    },
+    "contributors": {
+      "url": "https://api.cristin.no/v2/results/1404932/contributors",
+      "count": 1,
+      "preview": [
+        {
+          "first_name": "Magnus Helgheim",
+          "surname": "Blystad"
+        }
+      ]
+    },
+    "cristin_result_id": "1404932",
+    "nva_result_id": "0198cc768ade-5186d43f-8e71-4690-88d9-a178958a493b",
+    "created": {
+      "date": "2025-08-21T11:49:37.000Z"
+    },
+    "last_modified": {
+      "date": "2025-10-13T13:46:52.000Z"
+    },
+    "links": [
+      {
+        "url_type": "ARKIV",
+        "url": "https://hdl.handle.net/11250/4348172"
+      }
+    ],
+    "original_language": "en",
+    "title": {
+      "en": "Empathic Behavior In Animals - Can Rodents Show Empathy?"
+    },
+    "year_published": "2016",
+    "url": "https://api.cristin.no/v2/results/1404932",
+    "event": {
+      "name": "Oslo Atferdsvitenskapelige Konferanse",
+      "location": "Oslo",
+      "date_from": "2016-11-25T00:00:00.000Z",
+      "date_to": "2016-11-26T00:00:00.000Z",
+      "arranged_by": {
+        "name": "HiOA - Institutt For Atferdsvitenskap"
+      }
+    }
+  },
+  {
+    "category": {
+      "code": "ACADEMICLECTURE",
+      "name": {
+        "en": "Academic lecture"
+      }
+    },
+    "contributors": {
+      "url": "https://api.cristin.no/v2/results/1355142/contributors",
+      "count": 1,
+      "preview": [
+        {
+          "first_name": "Magnus Helgheim",
+          "surname": "Blystad"
+        }
+      ]
+    },
+    "cristin_result_id": "1355142",
+    "nva_result_id": "0198cc615e72-390ded56-2aba-4bea-a36e-7a1f66dad6cd",
+    "created": {
+      "date": "2025-08-21T11:26:30.000Z"
+    },
+    "last_modified": {
+      "date": "2025-10-13T19:20:34.000Z"
+    },
+    "links": [
+      {
+        "url_type": "ARKIV",
+        "url": "https://hdl.handle.net/11250/4946304"
+      }
+    ],
+    "original_language": "en",
+    "title": {
+      "en": "The Beginning Stages: Data from two small pilotstudies on rat Pro-Social Behavior"
+    },
+    "year_published": "2016",
+    "url": "https://api.cristin.no/v2/results/1355142",
+    "event": {
+      "name": "Spring 2016 Seminar",
+      "location": "Oslo",
+      "date_from": "2016-05-11T00:00:00.000Z",
+      "date_to": "2016-05-11T00:00:00.000Z",
+      "arranged_by": {
+        "name": " Cultural Selection and Behavioral Economics Lab"
+      }
+    }
+  },
+  {
+    "category": {
+      "code": "MEDIAINTERVIEW",
+      "name": {
+        "en": "Interview"
+      }
+    },
+    "contributors": {
+      "url": "https://api.cristin.no/v2/results/1392934/contributors",
+      "count": 1,
+      "preview": [
+        {
+          "first_name": "Magnus Helgheim",
+          "surname": "Blystad"
+        }
+      ]
+    },
+    "cristin_result_id": "1392934",
+    "nva_result_id": "0198cc48f296-aabafb4f-8a96-4981-94c4-20f1239cecf3",
+    "created": {
+      "date": "2025-08-21T10:59:49.000Z"
+    },
+    "last_modified": {
+      "date": "2025-10-13T14:10:06.000Z"
+    },
+    "date_published": "2016-10-19T00:00:00.000Z",
+    "links": [
+      {
+        "url_type": "ARKIV",
+        "url": "https://hdl.handle.net/11250/4387797"
+      }
+    ],
+    "original_language": "nb",
+    "title": {
+      "nb": "HiOA Snapchat Story 19. Oktober: Dette er stipendiat Magnus Blystad"
+    },
+    "year_published": "2016",
+    "url": "https://api.cristin.no/v2/results/1392934",
+    "media_type": {
+      "code": "INTERNETT",
+      "code_name": {
+        "en": "Internet"
+      }
+    },
+    "place": "SnapChat - Stories "
+  },
+  {
+    "category": {
+      "code": "ARTICLEFEATURE",
+      "name": {
+        "en": "Feature article"
+      }
+    },
+    "channel": {},
+    "contributors": {
+      "url": "https://api.cristin.no/v2/results/1359187/contributors",
+      "count": 1,
+      "preview": [
+        {
+          "first_name": "Magnus Helgheim",
+          "surname": "Blystad"
+        }
+      ]
+    },
+    "cristin_result_id": "1359187",
+    "nva_result_id": "0198cc42f380-f8bc9a5e-a2e0-47c8-b66d-99c713ce68ec",
+    "created": {
+      "date": "2025-08-21T10:53:16.000Z"
+    },
+    "last_modified": {
+      "date": "2025-10-14T01:56:10.000Z"
+    },
+    "date_published": "2016-06-02T00:00:00.000Z",
+    "links": [
+      {
+        "url_type": "ARKIV",
+        "url": "https://hdl.handle.net/11250/5029504"
+      },
+      {
+        "url_type": "FULLTEKST",
+        "url": "http://forskning.no/2016/05/hva-er-empati"
+      }
+    ],
+    "original_language": "nb",
+    "title": {
+      "nb": "Hva er egentlig empati?"
+    },
+    "year_published": "2016",
+    "url": "https://api.cristin.no/v2/results/1359187",
+    "journal": {}
+  },
+  {
+    "category": {
+      "code": "POSTER",
+      "name": {
+        "en": "Poster"
+      }
+    },
+    "contributors": {
+      "url": "https://api.cristin.no/v2/results/1352132/contributors",
+      "count": 5,
+      "preview": [
+        {
+          "first_name": "Magnus Helgheim",
+          "surname": "Blystad"
+        },
+        {
+          "first_name": "Espen Borgå",
+          "surname": "Johansen"
+        },
+        {
+          "first_name": "Per",
+          "surname": "Holth"
+        },
+        {
+          "first_name": "Nikola",
+          "surname": "Ljusic"
+        },
+        {
+          "first_name": "Nora Marie",
+          "surname": "Sigurdsen"
+        }
+      ]
+    },
+    "cristin_result_id": "1352132",
+    "nva_result_id": "0198cc3c6ddb-899d30bd-f442-45da-93a1-4e5fb26e7e35",
+    "created": {
+      "date": "2025-08-21T10:46:09.000Z"
+    },
+    "last_modified": {
+      "date": "2025-10-12T17:42:40.000Z"
+    },
+    "links": [
+      {
+        "url_type": "ARKIV",
+        "url": "https://hdl.handle.net/11250/3819178"
+      }
+    ],
+    "original_language": "nb",
+    "summary": {
+      "nb": "En plakat som presenterer tidlige funn fra et PhD prosjekt som undersøker prososial atferd hos rotter."
+    },
+    "title": {
+      "nb": "Tidlige Funn Fra En Studie På Prososial Atferd Hos Rotter:\r\nEn Single-Subject Replikasjon av Bartal et al., 2011/2014"
+    },
+    "year_published": "2016",
+    "url": "https://api.cristin.no/v2/results/1352132",
+    "event": {
+      "name": "NAFO-Seminaret 2016",
+      "location": "Gol",
+      "date_from": "2016-04-20T00:00:00.000Z",
+      "date_to": "2016-04-24T00:00:00.000Z",
+      "arranged_by": {
+        "name": "Norsk Atferdsanalytisk Forening"
+      }
+    }
+  },
+  {
+    "category": {
+      "code": "ACADEMICLECTURE",
+      "name": {
+        "en": "Academic lecture"
+      }
+    },
+    "contributors": {
+      "url": "https://api.cristin.no/v2/results/1352131/contributors",
+      "count": 1,
+      "preview": [
+        {
+          "first_name": "Magnus Helgheim",
+          "surname": "Blystad"
+        }
+      ]
+    },
+    "cristin_result_id": "1352131",
+    "nva_result_id": "0198cc3c69c0-0977ba00-6a16-4e8f-a819-fd0127a814d6",
+    "created": {
+      "date": "2025-08-21T10:46:08.000Z"
+    },
+    "last_modified": {
+      "date": "2025-10-13T18:46:50.000Z"
+    },
+    "links": [
+      {
+        "url_type": "ARKIV",
+        "url": "https://hdl.handle.net/11250/4884848"
+      },
+      {
+        "url_type": "FULLTEKST",
+        "url": "http://atferd.no/loadfile.aspx?IdFile=1460"
+      },
+      {
+        "url_type": "SAMMENDRAG",
+        "url": "http://atferd.no/ConferenceProgramList.aspx?IdDocument=594"
+      },
+      {
+        "url_type": "OMTALE",
+        "url": "http://atferd.no/ConferenceProgramList.aspx?IdDocument=594"
+      }
+    ],
+    "original_language": "nb",
+    "summary": {
+      "nb": "Et innlegg i et symposium om dyremodeller. Innlegget omhandlet prososial/empati-lignende atferd hos rotter, og et atferdsanalytisk perspektiv på slik atferd."
+    },
+    "title": {
+      "nb": "Et atferdsanalytisk perspektiv på prososial atferd"
+    },
+    "year_published": "2016",
+    "url": "https://api.cristin.no/v2/results/1352131",
+    "event": {
+      "name": "NAFO-Seminaret 2016",
+      "location": "Gol",
+      "date_from": "2016-04-20T00:00:00.000Z",
+      "date_to": "2016-04-24T00:00:00.000Z",
+      "arranged_by": {
+        "name": "Norsk Atferdsanalytisk Forening"
+      }
+    }
+  },
+  {
+    "category": {
+      "code": "POSTER",
+      "name": {
+        "en": "Poster"
+      }
+    },
+    "contributors": {
+      "url": "https://api.cristin.no/v2/results/1267032/contributors",
+      "count": 3,
+      "preview": [
+        {
+          "first_name": "Magnus Helgheim",
+          "surname": "Blystad"
+        },
+        {
+          "first_name": "Espen Borgå",
+          "surname": "Johansen"
+        },
+        {
+          "first_name": "Per",
+          "surname": "Holth"
+        }
+      ]
+    },
+    "cristin_result_id": "1267032",
+    "nva_result_id": "0198cc94926b-be6f9959-fe6f-407d-b38f-75795a0fdde7",
+    "created": {
+      "date": "2025-08-21T12:22:25.000Z"
+    },
+    "last_modified": {
+      "date": "2025-10-12T21:53:55.000Z"
+    },
+    "links": [
+      {
+        "url_type": "ARKIV",
+        "url": "https://hdl.handle.net/11250/3927053"
+      }
+    ],
+    "original_language": "en",
+    "summary": {
+      "en": "PRO SOCIAL BEHAVIOUR, AND EMPATHY, ARE IMPORTANT FACTORS TO MAKE MODERN SOCIETY WORK. EMPATHY ENABLES ORGANISMS TO RECOGNIZE THE EMOTIONAL BEHAVIOUR OF OTHERS. THIS PHD PROJECT WILL MAKE USE OF THE PRO-SOCIALITY/EMPATHY PARADIGM FIRST PUBLISHED IN A PAPER FROM 2011 BY I. BARTAL AND COLLEAGUES (BARTAL, DECETY, & MASON, 2011). THE AUTHORS INVESTIGATED HELPING BEHAVIOUR WHERE A FREE RAT RELEASED A TRAPPED RAT FROM A RESTRAINER. WITH THIS PHD PROJECT, WE AIM TO LOOK INTO POSSIBLE INFLUENCING FACTORS FOR SUCH HELPING BEHAVIOUR. WE WILL RUN SEVERAL DIFFERENT EXPERIMENTS EXPLORING CONTROL VARIABLES, EFFECTS OF ILLUMINATION AND OXYTOCINE TREATMENT."
+    },
+    "title": {
+      "en": "Poster Presentation: Pro-Social Behaviour In Rats"
+    },
+    "year_published": "2015",
+    "url": "https://api.cristin.no/v2/results/1267032",
+    "event": {
+      "name": "The 3rd National PhD Conference in Neuroscience",
+      "location": "Sotra",
+      "date_from": "2015-09-21T00:00:00.000Z",
+      "date_to": "2015-09-23T00:00:00.000Z",
+      "arranged_by": {
+        "name": "Norwegian Research School In Neuroscience"
+      }
+    }
+  },
+  {
+    "category": {
+      "code": "LECTURE",
+      "name": {
+        "en": "Lecture"
+      }
+    },
+    "contributors": {
+      "url": "https://api.cristin.no/v2/results/1247926/contributors",
+      "count": 1,
+      "preview": [
+        {
+          "first_name": "Magnus Helgheim",
+          "surname": "Blystad"
+        }
+      ]
+    },
+    "cristin_result_id": "1247926",
+    "nva_result_id": "0198cc7cdd74-61d186f5-9cf4-4c4c-9d1c-677e50795300",
+    "created": {
+      "date": "2025-08-21T11:56:31.000Z"
+    },
+    "last_modified": {
+      "date": "2025-10-13T18:12:06.000Z"
+    },
+    "links": [
+      {
+        "url_type": "ARKIV",
+        "url": "https://hdl.handle.net/11250/4821150"
+      }
+    ],
+    "original_language": "nb",
+    "summary": {
+      "nb": "En gjesteforelesning til en videregående klasse ved Hartvig Nissens skole. Forelesningen varte i 90 minutter og omhandlet prososial atferd og atferdsanalyse. "
+    },
+    "title": {
+      "nb": "Gjesteforelesning i Psykologi A ved Hartvig Nissens skole: Prososial Atferd og Atferdsanalyse"
+    },
+    "year_published": "2015",
+    "url": "https://api.cristin.no/v2/results/1247926",
+    "event": {
+      "name": "Gjesteforelesning i Psykologi A ved Hartvig Nissens skole: Prososial Atferd og Atferdsanalyse",
+      "location": "Hartvig Nissens Skole",
+      "date_from": "2015-06-12T00:00:00.000Z",
+      "date_to": "2015-06-12T00:00:00.000Z"
+    }
+  },
+  {
+    "category": {
+      "code": "LECTURE",
+      "name": {
+        "en": "Lecture"
+      }
+    },
+    "contributors": {
+      "url": "https://api.cristin.no/v2/results/1263136/contributors",
+      "count": 1,
+      "preview": [
+        {
+          "first_name": "Magnus Helgheim",
+          "surname": "Blystad"
+        }
+      ]
+    },
+    "cristin_result_id": "1263136",
+    "nva_result_id": "0198cc70b266-3b10b433-96e8-47de-8b38-08b1ad407295",
+    "created": {
+      "date": "2025-08-21T11:43:14.000Z"
+    },
+    "last_modified": {
+      "date": "2025-10-12T06:12:13.000Z"
+    },
+    "links": [
+      {
+        "url_type": "ARKIV",
+        "url": "https://hdl.handle.net/11250/3741431"
+      }
+    ],
+    "original_language": "en",
+    "title": {
+      "en": "Pro-Social Behavior In Rats"
+    },
+    "year_published": "2015",
+    "url": "https://api.cristin.no/v2/results/1263136",
+    "event": {
+      "name": "Fall 2015 Seminar",
+      "location": "Oslo",
+      "date_from": "2015-09-09T00:00:00.000Z",
+      "date_to": "2015-09-09T00:00:00.000Z",
+      "arranged_by": {
+        "name": "Cultural Selection and Behavioral Economics Lab"
+      }
+    }
+  },
+  {
+    "category": {
+      "code": "POSTER",
+      "name": {
+        "en": "Poster"
+      }
+    },
+    "contributors": {
+      "url": "https://api.cristin.no/v2/results/1288574/contributors",
+      "count": 3,
+      "preview": [
+        {
+          "first_name": "Magnus Helgheim",
+          "surname": "Blystad"
+        },
+        {
+          "first_name": "Espen Borgå",
+          "surname": "Johansen"
+        },
+        {
+          "first_name": "Per",
+          "surname": "Holth"
+        }
+      ]
+    },
+    "cristin_result_id": "1288574",
+    "nva_result_id": "0198cc61403d-7813b3b7-9a32-47c6-af3b-37b9b311a82e",
+    "created": {
+      "date": "2025-08-21T11:26:22.000Z"
+    },
+    "last_modified": {
+      "date": "2025-10-13T10:10:34.000Z"
+    },
+    "links": [
+      {
+        "url_type": "ARKIV",
+        "url": "https://hdl.handle.net/11250/4019715"
+      }
+    ],
+    "original_language": "en",
+    "summary": {
+      "en": "En presentasjon av poster fra NRSN konferansen september 2015, under fagseminaret til Fakultet For Helsefag. Posteren ble denne gang presentert på norsk. "
+    },
+    "title": {
+      "en": "Norsk presentasjon: Pro-Social Behaviour In Rats"
+    },
+    "year_published": "2015",
+    "url": "https://api.cristin.no/v2/results/1288574",
+    "event": {
+      "name": "Fagseminar - Forskningsgruppene ved Fakultet for helsefag presenterer sin forskning",
+      "location": "Oslo",
+      "date_from": "2015-11-12T00:00:00.000Z",
+      "date_to": "2015-11-12T00:00:00.000Z",
+      "arranged_by": {
+        "name": "Fakultet for helsefag"
+      }
+    }
+  },
+  {
+    "category": {
+      "code": "ACADEMICLECTURE",
+      "name": {
+        "en": "Academic lecture"
+      }
+    },
+    "contributors": {
+      "url": "https://api.cristin.no/v2/results/1235973/contributors",
+      "count": 4,
+      "preview": [
+        {
+          "first_name": "Alexandre",
+          "surname": "Surget"
+        },
+        {
+          "first_name": "Yadira Ibarguen",
+          "surname": "Vargas"
+        },
+        {
+          "first_name": "Magnus Helgheim",
+          "surname": "Blystad"
+        },
+        {
+          "first_name": "Ayumu",
+          "surname": "Tashiro"
+        }
+      ]
+    },
+    "cristin_result_id": "1235973",
+    "nva_result_id": "0198cc92adcf-6e21e009-37c6-41b0-a0f6-d50a1782c2e1",
+    "created": {
+      "date": "2025-08-21T12:20:21.000Z"
+    },
+    "last_modified": {
+      "date": "2025-10-13T16:00:10.000Z"
+    },
+    "links": [
+      {
+        "url_type": "ARKIV",
+        "url": "https://hdl.handle.net/11250/4582122"
+      }
+    ],
+    "original_language": "en",
+    "title": {
+      "en": "S.07.06 Antidepressant treatment enhances the capacity for disambiguation in the hippocampus"
+    },
+    "year_published": "2014",
+    "url": "https://api.cristin.no/v2/results/1235973",
+    "event": {
+      "name": "27th ECNP Congress",
+      "location": "Berlin",
+      "date_from": "2014-10-18T00:00:00.000Z",
+      "date_to": "2014-10-21T00:00:00.000Z",
+      "arranged_by": {
+        "name": "European College of Neuropsychopharmacology"
+      }
+    }
+  },
+  {
+    "category": {
+      "code": "ABSTRACT",
+      "name": {
+        "en": "Abstract"
+      }
+    },
+    "channel": {
+      "title": "European Neuropsychopharmacology"
+    },
+    "contributors": {
+      "url": "https://api.cristin.no/v2/results/1235964/contributors",
+      "count": 4,
+      "preview": [
+        {
+          "first_name": "Alexandre",
+          "surname": "Surget"
+        },
+        {
+          "first_name": "Nylza Yadira Ibarguen",
+          "surname": "Vargas"
+        },
+        {
+          "first_name": "Magnus Helgheim",
+          "surname": "Blystad"
+        },
+        {
+          "first_name": "Ayumu",
+          "surname": "Tashiro"
+        }
+      ]
+    },
+    "cristin_result_id": "1235964",
+    "nva_result_id": "0198cc91ff5e-d798f5d2-f7e7-41a0-874e-2cabbd3779bf",
+    "created": {
+      "date": "2025-08-21T12:19:36.000Z"
+    },
+    "last_modified": {
+      "date": "2025-10-13T17:27:11.000Z"
+    },
+    "links": [
+      {
+        "url_type": "DOI",
+        "url": "https://doi.org/10.1016/S0924-977X(14)70106-3"
+      },
+      {
+        "url_type": "ARKIV",
+        "url": "https://hdl.handle.net/11250/4738748"
+      }
+    ],
+    "original_language": "en",
+    "title": {
+      "en": "P.4.017 Chronic fluoxetine treatment enhances the capacity for disambiguation in the hippocampus"
+    },
+    "year_published": "2014",
+    "url": "https://api.cristin.no/v2/results/1235964",
+    "journal": {
+      "cristin_journal_id": "38C9E299-2063-4686-88E6-6921CA8974F9",
+      "name": "European Neuropsychopharmacology",
+      "international_standard_numbers": [
+        {
+          "type": "printed",
+          "value": "0924-977X"
+        },
+        {
+          "type": "electronic",
+          "value": "1873-7862"
+        }
+      ],
+      "nvi_level": "1",
+      "external_url": "https://kanalregister.hkdir.no/publiseringskanaler/info/tidsskrift?pid=38C9E299-2063-4686-88E6-6921CA8974F9"
+    },
+    "volume": "24",
+    "pages": {
+      "from": "93",
+      "to": "94"
+    }
+  },
+  {
+    "category": {
+      "code": "THESISMASTER",
+      "name": {
+        "en": "Masters thesis"
+      }
+    },
+    "channel": {
+      "title": "NTNU"
+    },
+    "contributors": {
+      "url": "https://api.cristin.no/v2/results/1236102/contributors",
+      "count": 1,
+      "preview": [
+        {
+          "first_name": "Magnus Helgheim",
+          "surname": "Blystad"
+        }
+      ]
+    },
+    "cristin_result_id": "1236102",
+    "nva_result_id": "0198cc927ebc-cae2b31f-6f39-41f9-9be6-ab40439330cd",
+    "created": {
+      "date": "2025-08-21T12:20:09.000Z"
+    },
+    "last_modified": {
+      "date": "2025-10-11T13:26:39.000Z"
+    },
+    "links": [
+      {
+        "url_type": "ARKIV",
+        "url": "https://hdl.handle.net/11250/3373372"
+      },
+      {
+        "url_type": "FULLTEKST",
+        "url": "https://bibsys-almaprimo.hosted.exlibrisgroup.com/permalink/f/13q4kuj/BIBSYS_ILS71506863500002201"
+      }
+    ],
+    "original_language": "en",
+    "title": {
+      "en": "The effect of chronic fluoxetine treatment on the behavior of rats in a food foraging task"
+    },
+    "year_published": "2012",
+    "url": "https://api.cristin.no/v2/results/1236102",
+    "number_of_pages": "45",
+    "publisher": {
+      "name": "NTNU"
+    }
+  }
+]
